@@ -1,0 +1,22 @@
+uuid: f6f8c865-3b7c-4127-9513-9c5ff6c46540
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tedx_pipitea_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: tedx_pipitea_theme_local_tasks
+theme: tedx_pipitea_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

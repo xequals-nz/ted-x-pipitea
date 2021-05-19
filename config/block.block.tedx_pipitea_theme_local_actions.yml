@@ -1,0 +1,20 @@
+uuid: d6fa6cdb-8a46-4413-882d-b2f8223a3942
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tedx_pipitea_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: tedx_pipitea_theme_local_actions
+theme: tedx_pipitea_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

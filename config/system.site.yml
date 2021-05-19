@@ -1,0 +1,14 @@
+uuid: 0bddd4f6-62d2-4a7b-b8f1-108e3d111f6e
+name: 'TedX Pipitea'
+mail: tedxpipitea@xequals.co.nz
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

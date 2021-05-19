@@ -1,0 +1,22 @@
+uuid: 81905f5d-88e1-4cd9-baf7-2689f75c9859
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_for_drupal
+_core:
+  default_config_hash: YHU_biShD5p--iJzUvnMgktPmEeXNme6hHr62TTBHlQ
+id: bootstrap_for_drupal_breadcrumbs
+theme: bootstrap_for_drupal
+region: content_before
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

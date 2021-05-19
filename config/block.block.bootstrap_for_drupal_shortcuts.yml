@@ -1,0 +1,22 @@
+uuid: bb458666-e17f-497d-bc78-d8340b324840
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcut
+  theme:
+    - bootstrap_for_drupal
+_core:
+  default_config_hash: j5hQZZhuZ9Hz0pkNL2PKIlQB0BauRd2JDsHTnfyKhso
+id: bootstrap_for_drupal_shortcuts
+theme: bootstrap_for_drupal
+region: sidebar_left
+weight: -14
+provider: null
+plugin: shortcuts
+settings:
+  id: shortcuts
+  label: shortcut
+  provider: shortcut
+  label_display: visible
+visibility: {  }
