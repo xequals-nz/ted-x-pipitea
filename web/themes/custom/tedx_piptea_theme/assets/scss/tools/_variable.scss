@@ -39,6 +39,13 @@ $spacers: map-merge((0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4:
 // [ COLORS ]
 
 // CUSTOM COLORS
+// Theme specific colours
+
+$ted-red: #f52c0c;
+$ted-black: #111111;
+$ted-dark-black: #222222;
+$ted-light-black: #8f8f8f;
+
 
 // SOCIAL MEDIA COLORS
 $instagram: #e4405f;
@@ -87,7 +94,7 @@ $black: #000;
 $theme-colors: (
 
   //Bootstrap native
-  primary  : $primary,
+  primary  : $ted-black,
   secondary: $secondary,
   success  : $green,
   info     : $cyan,
@@ -217,8 +224,3 @@ $spinner-width: 2rem;
 $breadcrumb-divider: quote("/");
 
 
-// Theme specific colours
-$ted-red: #f52c0c;
-$ted-black: #111111;
-$ted-dark-black: #222222;
-$ted-light-black: #8f8f8f;

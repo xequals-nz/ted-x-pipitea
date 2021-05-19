@@ -3,6 +3,7 @@
 	font-style: bold;
 	font-size: 45px;
 	text-transform: uppercase;
+	color: $ted-red;
 }
 
 .h2, h2 {
@@ -34,7 +35,7 @@
 
 p {
 	font-size: 12px;
-	color: #333;
+	color: #fff;
 }
 
 a {
@@ -42,4 +43,10 @@ a {
 	&:hover {
 		color: $ted-red;
 	}
+}
+
+
+
+.bg-secondary, body{
+	background-color: $ted-black !important;
 }

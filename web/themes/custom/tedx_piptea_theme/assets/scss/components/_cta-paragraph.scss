@@ -1,0 +1,11 @@
+.paragraph--type--cta-paragraph {
+	max-width: 320px;
+	.field--name-field-link {
+		a {
+			display: inline-block;
+			margin: auto;
+			border: 1px solid $white;
+			color: white;
+		}
+	}
+}
