@@ -1,0 +1,23 @@
+uuid: 53cc7d5a-f1fb-4d0c-b8f7-e5ae107f811a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_section
+    - node.type.paragraphs_page
+  module:
+    - entity_reference_revisions
+id: node.paragraphs_page.field_paragraph_section
+field_name: field_paragraph_section
+entity_type: node
+bundle: paragraphs_page
+label: 'Paragraph section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

@@ -1,0 +1,10 @@
+uuid: ce93609e-d8d6-4375-b330-0ce37ad5f190
+langcode: en
+status: true
+dependencies: {  }
+id: text_paragraph
+label: 'Text paragraph'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

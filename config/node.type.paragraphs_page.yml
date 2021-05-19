@@ -1,0 +1,18 @@
+uuid: b8c55d12-4b51-4c82-92a5-0b40df36321b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Paragraphs page'
+type: paragraphs_page
+description: 'Page to build using paragraph types'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

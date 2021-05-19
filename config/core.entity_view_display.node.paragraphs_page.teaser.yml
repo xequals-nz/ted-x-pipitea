@@ -1,0 +1,32 @@
+uuid: f8785b35-4e11-4108-bdc6-e1d9cf06f4cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.paragraphs_page.body
+    - field.field.node.paragraphs_page.field_paragraph_section
+    - node.type.paragraphs_page
+  module:
+    - text
+    - user
+id: node.paragraphs_page.teaser
+targetEntityType: node
+bundle: paragraphs_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paragraph_section: true
