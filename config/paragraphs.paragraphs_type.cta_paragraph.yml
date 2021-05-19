@@ -1,0 +1,10 @@
+uuid: c40313e5-8e64-43fa-8b6e-917550b0b924
+langcode: en
+status: true
+dependencies: {  }
+id: cta_paragraph
+label: 'CTA paragraph'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

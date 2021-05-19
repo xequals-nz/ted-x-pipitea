@@ -1,0 +1,44 @@
+uuid: cb993a12-7680-4d9b-b427-7be142331f40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.cta_paragraph
+    - paragraphs.paragraphs_type.image_paragraph
+    - paragraphs.paragraphs_type.paragraph_section
+    - paragraphs.paragraphs_type.text_paragraph
+  module:
+    - entity_reference_revisions
+id: paragraph.paragraph_section.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: paragraph_section
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_paragraph: image_paragraph
+      cta_paragraph: cta_paragraph
+      text_paragraph: text_paragraph
+    target_bundles_drag_drop:
+      cta_paragraph:
+        enabled: true
+        weight: 5
+      image_paragraph:
+        enabled: true
+        weight: 4
+      paragraph_section:
+        weight: 5
+        enabled: false
+      text_paragraph:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

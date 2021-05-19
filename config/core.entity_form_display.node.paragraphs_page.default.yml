@@ -3,8 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.paragraphs_page.body
-    - field.field.node.paragraphs_page.field_paragraph_section
+    - field.field.node.paragraphs_page.field_paragraph_container
     - node.type.paragraphs_page
   module:
     - paragraphs
@@ -20,9 +19,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_paragraph_section:
+  field_paragraph_container:
     type: entity_reference_paragraphs
-    weight: 7
+    weight: 26
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -77,5 +76,4 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden:
-  body: true
+hidden: {  }
