@@ -7,6 +7,7 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  classy_paragraphs: 0
   color: 0
   comment: 0
   config: 0
@@ -54,6 +55,8 @@ theme:
   classy: 0
   bootstrap_for_drupal: 0
   tedx_pipitea_theme: 0
+  claro: 0
+  gin: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
