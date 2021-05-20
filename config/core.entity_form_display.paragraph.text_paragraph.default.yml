@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.text_paragraph.field_class
     - field.field.paragraph.text_paragraph.field_text
     - paragraphs.paragraphs_type.text_paragraph
   module:
@@ -12,6 +13,12 @@ targetEntityType: paragraph
 bundle: text_paragraph
 mode: default
 content:
+  field_class:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_text:
     weight: 0
     settings:

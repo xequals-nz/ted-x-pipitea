@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.text_paragraph.field_class
     - field.field.paragraph.text_paragraph.field_text
     - paragraphs.paragraphs_type.text_paragraph
   module:
@@ -19,4 +20,5 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-hidden: {  }
+hidden:
+  field_class: true

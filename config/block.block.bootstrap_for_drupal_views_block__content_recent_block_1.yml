@@ -22,5 +22,5 @@ settings:
   provider: views
   label_display: visible
   views_label: ''
-  items_per_page: 5
+  items_per_page: '5'
 visibility: {  }

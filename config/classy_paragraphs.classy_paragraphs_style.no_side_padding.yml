@@ -1,0 +1,7 @@
+uuid: cc95c4c1-133a-4aee-bf5c-835f7b23d198
+langcode: en
+status: true
+dependencies: {  }
+id: no_side_padding
+label: 'No side padding'
+classes: no-side-padding

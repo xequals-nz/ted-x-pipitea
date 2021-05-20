@@ -1,0 +1,25 @@
+uuid: abdeac6a-8821-4701-a642-7dcb6758f272
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+  module:
+    - block_content
+  theme:
+    - tedx_pipitea_theme
+id: independenttedxstatement
+theme: tedx_pipitea_theme
+region: footer_sub_left
+weight: -7
+provider: null
+plugin: 'block_content:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+settings:
+  id: 'block_content:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+  label: 'Independent TEDX statement'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

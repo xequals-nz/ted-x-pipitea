@@ -1,0 +1,7 @@
+uuid: 85643052-f915-4334-b60e-93302b3c0e07
+langcode: en
+status: true
+dependencies: {  }
+id: red_with_arrow
+label: 'Red with arrow'
+classes: red-with-arrow
