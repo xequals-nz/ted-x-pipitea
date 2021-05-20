@@ -13798,6 +13798,21 @@ ol.breadcrumb .breadcrumb-item {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
 
+@media (min-width: 992px) {
+  .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items > * {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1; } }
+
 /* ---------------------------------------------------------------------------*/
 /* SUBTHEME                                                                   */
 /* ---------------------------------------------------------------------------*/
@@ -13904,3 +13919,6 @@ a {
 
 .navbar .region-nav-main {
   padding: 0; }
+
+#header-brand a.navbar-brand {
+  font-size: 0; }
