@@ -10,13 +10,15 @@
 * {
 	scrollbar-color: inherit !important;
 }
-.site-logo {
-	img {
-		height: 40px;
-	}
-}
-
-.bg-secondary, body{
+body{
 	background-color: $ted-black !important;
 }
 
+#header-brand, #header-menu, .bg-secondary {
+	background-color: $ted-black !important;	
+	img.logo {
+		width: 300px;
+		height: auto;
+		max-height: none;
+	}
+}

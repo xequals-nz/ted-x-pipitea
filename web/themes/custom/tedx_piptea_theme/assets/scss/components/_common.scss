@@ -20,6 +20,53 @@
 	}
 }
 
-#header-brand a.navbar-brand {
+#header-brand a.navbar-brand, .d-md-none, .sr-only {
 	font-size: 0;
+	.d-md-none, .sr-only {
+		font-size: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+// Footers
+
+#page-footer {
+	background-color: $ted-dark-grey !important;
+}
+
+
+#page-footer-sub {
+	background-color: $white !important;
+}
+
+
+#block-independenttedxstatement, #block-tedx-pipitea-theme-account-menu {
+	p {
+		color: $ted-red;
+	}
+}
+
+footer .region-footer-left .block ul {
+	li {
+		margin-left: 0;
+		&:before {
+			content: none !important;
+		}
+	}
+	a {
+		text-transform: uppercase;
+		color: $white;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
 }

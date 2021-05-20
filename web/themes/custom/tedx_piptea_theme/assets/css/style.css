@@ -13867,11 +13867,15 @@ a {
 * {
   scrollbar-color: inherit !important; }
 
-.site-logo img {
-  height: 40px; }
-
-.bg-secondary, body {
+body {
   background-color: #111111 !important; }
+
+#header-brand, #header-menu, .bg-secondary {
+  background-color: #111111 !important; }
+  #header-brand img.logo, #header-menu img.logo, .bg-secondary img.logo {
+    width: 300px;
+    height: auto;
+    max-height: none; }
 
 .red-with-arrow {
   height: 100%;
@@ -13885,6 +13889,16 @@ a {
     color: #fff; }
   .red-with-arrow a {
     color: #fff; }
+  .red-with-arrow:before {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid red; }
+
+.no-side-padding.paragraph--type--text-paragraph {
+  padding: 15px 0; }
 
 .paragraph--type--cta-paragraph {
   max-width: 320px;
@@ -13920,5 +13934,35 @@ a {
 .navbar .region-nav-main {
   padding: 0; }
 
-#header-brand a.navbar-brand {
+#header-brand a.navbar-brand, .d-md-none, .sr-only {
   font-size: 0; }
+  #header-brand a.navbar-brand .d-md-none, #header-brand a.navbar-brand .sr-only, .d-md-none .d-md-none, .d-md-none .sr-only, .sr-only .d-md-none, .sr-only .sr-only {
+    font-size: 0; }
+
+#page-footer {
+  background-color: #222222 !important; }
+
+#page-footer-sub {
+  background-color: #fff !important; }
+
+#block-independenttedxstatement p, #block-tedx-pipitea-theme-account-menu p {
+  color: #f52c0c; }
+
+footer .region-footer-left .block ul li {
+  margin-left: 0; }
+  footer .region-footer-left .block ul li:before {
+    content: none !important; }
+
+footer .region-footer-left .block ul a {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold; }
+  footer .region-footer-left .block ul a:hover {
+    text-decoration: underline; }
+
+.field--type-image img {
+  height: auto; }
+
+.paragraph--type--text-paragraph {
+  padding: 15px;
+  max-width: 900px; }
