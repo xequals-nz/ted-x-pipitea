@@ -1,0 +1,21 @@
+
+#menu-main a.nav-item {
+	text-transform: uppercase;
+	color: $white;
+	font-weight: bold;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:before {
+		content: none;
+	}
+}
+
+.navbar {
+	.container {
+		max-width: 1180px;
+	}
+	.region-nav-main {
+		padding: 0;
+	}
+}

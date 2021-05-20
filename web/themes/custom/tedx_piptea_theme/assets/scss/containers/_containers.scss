@@ -1,6 +1,9 @@
 .paragraph--type--paragraph-section {
+	margin-top: 30px;
+	margin-bottom: 30px; 
 	.field--name-field-paragraphs .field__items{
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 }

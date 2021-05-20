@@ -28,3 +28,18 @@
     @return 'h#{$from},' + headings($from+1, $to);
   }
 }
+
+
+.square-button {
+  display: block;
+  margin: auto;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
