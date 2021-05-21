@@ -26,7 +26,7 @@ content:
     region: content
   field_webform:
     weight: 104
-    label: above
+    label: visually_hidden
     settings:
       source_entity: true
     third_party_settings: {  }
