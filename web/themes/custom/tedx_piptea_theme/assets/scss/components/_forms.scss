@@ -1,5 +1,11 @@
-form {
-	input.form-control, textarea.formcontrol{
+form.webform-submission-form {
+	input.form-control, textarea.form-control{
 		background-color: $ted-black;
+	}
+	.webform-button--submit {
+		@extend .square-button;
+	}
+	label {
+		display: none;
 	}
 }

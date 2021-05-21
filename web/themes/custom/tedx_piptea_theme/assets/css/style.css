@@ -10985,7 +10985,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.square-button, .red-with-arrow a, .paragraph--type--cta-paragraph .field--name-field-link a {
+.square-button, .red-with-arrow a, .paragraph--type--cta-paragraph .field--name-field-link a, form.webform-submission-form .webform-button--submit {
   display: block;
   margin: auto;
   border: 1px solid #fff;
@@ -13971,5 +13971,8 @@ footer .region-footer-left .block ul a {
   padding: 15px;
   max-width: 900px; }
 
-form input.form-control, form textarea.formcontrol {
+form.webform-submission-form input.form-control, form.webform-submission-form textarea.form-control {
   background-color: #111111; }
+
+form.webform-submission-form label {
+  display: none; }
