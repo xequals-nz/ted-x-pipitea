@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.paragraphs_page.field_paragraph_container
+    - field.field.node.paragraphs_page.field_webform
     - node.type.paragraphs_page
   module:
     - user
@@ -20,3 +21,4 @@ content:
     region: content
 hidden:
   field_paragraph_container: true
+  field_webform: true

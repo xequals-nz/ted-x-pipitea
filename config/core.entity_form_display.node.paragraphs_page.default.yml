@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.paragraphs_page.field_paragraph_container
+    - field.field.node.paragraphs_page.field_webform
     - node.type.paragraphs_page
   module:
     - paragraphs
     - path
+    - webform
 id: node.paragraphs_page.default
 targetEntityType: node
 bundle: paragraphs_page
@@ -30,6 +32,14 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_webform:
+    weight: 27
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+    type: webform_entity_reference_select
     region: content
   path:
     type: path

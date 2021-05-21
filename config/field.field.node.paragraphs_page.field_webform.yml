@@ -1,0 +1,32 @@
+uuid: 9dd2e457-445f-4bc7-85cf-45992c619582
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_webform
+    - node.type.paragraphs_page
+    - webform.webform.contact
+  module:
+    - webform
+id: node.paragraphs_page.field_webform
+field_name: field_webform
+entity_type: node
+bundle: paragraphs_page
+label: Webform
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: e4b9fe81-619b-4257-8642-b652a55f69f0
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform
