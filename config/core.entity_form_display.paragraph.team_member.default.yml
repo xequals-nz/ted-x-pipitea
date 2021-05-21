@@ -1,0 +1,36 @@
+uuid: a1780c75-2843-4ac8-bd40-fa5c52e0044e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.team_member.field_image
+    - field.field.paragraph.team_member.field_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.team_member
+  module:
+    - image
+    - text
+id: paragraph.team_member.default
+targetEntityType: paragraph
+bundle: team_member
+mode: default
+content:
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_text:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

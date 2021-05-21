@@ -4,10 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_paragraphs
-    - paragraphs.paragraphs_type.cta_paragraph
-    - paragraphs.paragraphs_type.image_paragraph
     - paragraphs.paragraphs_type.paragraph_section
-    - paragraphs.paragraphs_type.text_paragraph
   module:
     - entity_reference_revisions
 id: paragraph.paragraph_section.field_paragraphs
@@ -23,22 +20,23 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
+    negate: 1
     target_bundles:
-      image_paragraph: image_paragraph
-      cta_paragraph: cta_paragraph
-      text_paragraph: text_paragraph
+      paragraph_section: paragraph_section
     target_bundles_drag_drop:
       cta_paragraph:
-        enabled: true
-        weight: 5
-      image_paragraph:
-        enabled: true
-        weight: 4
-      paragraph_section:
         weight: 5
         enabled: false
-      text_paragraph:
+      image_paragraph:
+        weight: 4
+        enabled: false
+      paragraph_section:
         enabled: true
+        weight: 5
+      team_member:
+        weight: 9
+        enabled: false
+      text_paragraph:
         weight: 6
+        enabled: false
 field_type: entity_reference_revisions

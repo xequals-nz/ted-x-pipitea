@@ -1,0 +1,10 @@
+uuid: d396fcd4-6b8b-43d5-a7b9-ced4304ff6eb
+langcode: en
+status: true
+dependencies: {  }
+id: team_member
+label: 'Team member/Speaker'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
