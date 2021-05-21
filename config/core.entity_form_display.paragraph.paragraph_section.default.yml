@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.paragraph_section.field_paragraphs
+    - field.field.paragraph.paragraph_section.field_section_title
     - paragraphs.paragraphs_type.paragraph_section
   module:
     - paragraphs
@@ -14,7 +15,7 @@ mode: default
 content:
   field_paragraphs:
     type: entity_reference_paragraphs
-    weight: 0
+    weight: 1
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -23,6 +24,14 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_section_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true
