@@ -1,21 +1,21 @@
-uuid: abdeac6a-8821-4701-a642-7dcb6758f272
+uuid: df77e6de-d4e7-454d-ac93-d2d0693dbf55
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+    - 'block_content:basic:d42d06ae-7a73-4016-b001-8fe7581a55ff'
   module:
     - block_content
   theme:
     - tedx_pipitea_theme
-id: independenttedxstatement
+id: independenttedxstatement_2
 theme: tedx_pipitea_theme
 region: footer_sub_left
 weight: -7
 provider: null
-plugin: 'block_content:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+plugin: 'block_content:d42d06ae-7a73-4016-b001-8fe7581a55ff'
 settings:
-  id: 'block_content:94bcf520-f403-4488-a5f7-f6ca76a1187d'
+  id: 'block_content:d42d06ae-7a73-4016-b001-8fe7581a55ff'
   label: 'Independent TEDX statement'
   provider: block_content
   label_display: '0'
