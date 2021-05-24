@@ -42,4 +42,9 @@
   padding: 8px;
   font-size: 14px;
   letter-spacing: 1px;
+  text-decoration: none;
+  &:hover {
+    color: #333;
+    background-color: $white;
+  }
 }

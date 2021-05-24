@@ -10996,7 +10996,11 @@ textarea.form-control-lg {
   font-weight: bold;
   padding: 8px;
   font-size: 14px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  text-decoration: none; }
+  .square-button:hover, .red-with-arrow a:hover, .paragraph--type--cta-paragraph .field--name-field-link a:hover, form.webform-submission-form .webform-button--submit:hover {
+    color: #333;
+    background-color: #fff; }
 
 /* ---------------------------------------------------------------------------*/
 /* MOBILE FIRST - base/_base.scss                                             */
@@ -13856,9 +13860,10 @@ p {
   font-size: 12px;
   color: #fff; }
 
-a {
-  color: #333; }
-  a:hover {
+p a, a {
+  color: #fff;
+  text-decoration: underline; }
+  p a:hover, a:hover {
     color: #f52c0c; }
 
 .page-title {

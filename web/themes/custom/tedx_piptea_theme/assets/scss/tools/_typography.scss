@@ -35,11 +35,12 @@
 
 p {
 	font-size: 12px;
-	color: #fff;
+	color: $white;
 }
 
-a {
-	color: #333;
+p a, a {
+	color: $white;
+	text-decoration: underline;
 	&:hover {
 		color: $ted-red;
 	}
