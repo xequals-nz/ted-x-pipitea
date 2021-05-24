@@ -17,5 +17,44 @@
 	.after {
 		background-color: $ted-red; 
 	}
+
+	.region-content-after {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
+
+
+
+#block-savethedatecta {
+	flex: 1 1 50%;
+	display: flex;
+	align-items: center;
+	padding-right: 8px; 
+	h2 {
+		color: $white;
+	}
+		h2 {
+		color: $white;
+		text-transform: uppercase;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	p {
+		color: $white;
+	}
+
+	a {
+		color: $white;
+		@extend .square-button;
+	}
+}
+
+#block-savethedatectaimage {
+	flex: 1 1 50%;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
