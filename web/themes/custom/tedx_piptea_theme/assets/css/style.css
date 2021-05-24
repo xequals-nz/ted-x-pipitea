@@ -13948,6 +13948,10 @@ body {
   #header-brand a.navbar-brand .d-md-none, #header-brand a.navbar-brand .sr-only, .d-md-none .d-md-none, .d-md-none .sr-only, .sr-only .d-md-none, .sr-only .sr-only {
     font-size: 0; }
 
+@media (min-width: 768px) {
+  #header-menu .nav.navbar-nav li.nav-item {
+    margin-right: 40px; } }
+
 #page-footer {
   background-color: #222222 !important; }
 
@@ -13982,8 +13986,17 @@ form.webform-submission-form input.form-control, form.webform-submission-form te
 form.webform-submission-form label {
   display: none; }
 
-.dialog-off-canvas-main-canvas {
+#header-brand {
+  padding-top: 2rem !important; }
+
+.path-frontpage .dialog-off-canvas-main-canvas {
   background-image: url("/themes/custom/tedx_piptea_theme/header2.png");
   background-position-y: top;
   background-position-x: right;
   background-repeat: no-repeat; }
+
+.path-frontpage .page-title {
+  font-weight: bold; }
+  @media (min-width: 768px) {
+    .path-frontpage .page-title {
+      font-size: 90px; } }

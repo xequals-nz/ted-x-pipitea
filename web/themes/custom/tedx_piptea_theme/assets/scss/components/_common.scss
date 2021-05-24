@@ -27,6 +27,12 @@
 	}
 }
 
+#header-menu .nav.navbar-nav li.nav-item {
+		@include media-breakpoint-up(md) {			
+			margin-right: 40px;
+		}
+}
+
 // Footers
 
 #page-footer {

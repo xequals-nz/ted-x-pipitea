@@ -1,6 +1,16 @@
-.dialog-off-canvas-main-canvas {
-	background-image: url('/themes/custom/tedx_piptea_theme/header2.png');
-	background-position-y: top;
-	background-position-x: right;
-	background-repeat: no-repeat;
+.path-frontpage {
+	.dialog-off-canvas-main-canvas {
+		background-image: url('/themes/custom/tedx_piptea_theme/header2.png');
+		background-position-y: top;
+		background-position-x: right;
+		background-repeat: no-repeat;
+	}
+
+	.page-title {
+		font-weight: bold;
+		@include media-breakpoint-up(md) {			
+			font-size: 90px;
+		}
+	}
 }
+
