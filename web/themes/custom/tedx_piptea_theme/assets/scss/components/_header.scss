@@ -2,3 +2,14 @@
 padding-top: 2rem !important;
 	
 }
+
+.solid {
+	#header-brand, #header-menu {
+		background-color: $ted-black !important;
+	}
+}
+
+#header-brand, #header-menu {
+		background-color: transparent !important;
+		box-shadow: none;
+}

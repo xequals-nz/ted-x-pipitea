@@ -132,10 +132,12 @@
       if (scroll >= 85) {
         if (!logo.hasClass('show-logo')) {
           logo.removeClass('hide-logo').addClass('show-logo');
+          $('body').addClass('solid');
         }
       }
       else if (!logo.hasClass('hide-logo')) {
         logo.removeClass('show-logo').addClass('hide-logo');
+        $('body').removeClass('solid');
       }
     });
   });
