@@ -1,0 +1,30 @@
+uuid: 48061683-c465-46ea-9c61-5145ff54513f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d52af33-cf72-4117-b538-0963d648f022'
+  module:
+    - block_content
+    - system
+  theme:
+    - tedx_pipitea_theme
+id: savethedatecta
+theme: tedx_pipitea_theme
+region: content_after
+weight: 0
+provider: null
+plugin: 'block_content:1d52af33-cf72-4117-b538-0963d648f022'
+settings:
+  id: 'block_content:1d52af33-cf72-4117-b538-0963d648f022'
+  label: 'Save the date CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
