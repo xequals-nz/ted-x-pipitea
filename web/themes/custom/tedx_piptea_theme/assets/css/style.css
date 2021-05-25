@@ -14004,6 +14004,14 @@ form.webform-submission-form label {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
+.path-frontpage #header-brand {
+  display: none; }
+
+.path-frontpage #header-menu {
+  padding-top: 2rem; }
+  .path-frontpage #header-menu .hide-logo {
+    display: inline-block; }
+
 .path-frontpage .dialog-off-canvas-main-canvas {
   background-image: url("/themes/custom/tedx_piptea_theme/landing-page-header.png");
   background-position-y: -15%;
