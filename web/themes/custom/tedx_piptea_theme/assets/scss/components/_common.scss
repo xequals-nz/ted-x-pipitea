@@ -33,10 +33,19 @@
 		}
 }
 
+// Content after
+#content-after {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
 // Footers
 
 #page-footer {
 	background-color: $ted-dark-grey !important;
+	margin-top: 0 !important;
+	box-shadow: none;
 }
 
 

@@ -13952,8 +13952,15 @@ body {
   #header-menu .nav.navbar-nav li.nav-item {
     margin-right: 40px; } }
 
+#content-after {
+  padding-left: 0;
+  padding-right: 0; }
+
 #page-footer {
-  background-color: #222222 !important; }
+  background-color: #222222 !important;
+  margin-top: 0 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 #page-footer-sub {
   background-color: #fff !important; }
@@ -14008,8 +14015,16 @@ form.webform-submission-form label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 768px) {
+    .path-frontpage .region-content-after {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 #block-savethedatecta {
   -webkit-box-flex: 1;
@@ -14021,9 +14036,10 @@ form.webform-submission-form label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 8px; }
-  #block-savethedatecta h2, #block-savethedatecta .h2 {
-    color: #fff; }
+  padding: calc(var(--bs-gutter-x) / 2); }
+  @media (min-width: 768px) {
+    #block-savethedatecta {
+      padding-left: 0; } }
   #block-savethedatecta h2, #block-savethedatecta .h2 {
     color: #fff;
     text-transform: uppercase;
@@ -14033,6 +14049,9 @@ form.webform-submission-form label {
     color: #fff; }
   #block-savethedatecta a {
     color: #fff; }
+    @media (min-width: 768px) {
+      #block-savethedatecta a {
+        margin-left: 0; } }
 
 #block-savethedatectaimage {
   -webkit-box-flex: 1;
@@ -14041,3 +14060,5 @@ form.webform-submission-form label {
   #block-savethedatectaimage img {
     max-width: 100%;
     height: auto; }
+  #block-savethedatectaimage p {
+    margin: 0; }
