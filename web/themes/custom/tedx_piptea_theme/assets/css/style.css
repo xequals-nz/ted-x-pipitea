@@ -13867,7 +13867,7 @@ p a, a {
     color: #f52c0c; }
 
 .page-title {
-  text-transform: none; }
+  text-transform: uppercase; }
 
 b,
 strong {
@@ -14022,7 +14022,8 @@ form.webform-submission-form label {
       background-position-y: top; } }
 
 .path-frontpage .page-title {
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: none; }
   @media (min-width: 768px) {
     .path-frontpage .page-title {
       font-size: 90px; } }
@@ -14081,3 +14082,6 @@ form.webform-submission-form label {
     height: auto; }
   #block-savethedatectaimage p {
     margin: 0; }
+
+.about .after {
+  background-color: #fff; }

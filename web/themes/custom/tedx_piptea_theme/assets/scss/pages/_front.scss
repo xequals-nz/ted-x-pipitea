@@ -20,6 +20,7 @@
 
 	.page-title {
 		font-weight: bold;
+		text-transform: none;
 		@include media-breakpoint-up(md) {			
 			font-size: 90px;
 		}
