@@ -48,8 +48,11 @@
 	display: flex;
 	align-items: center;
 	padding: calc(var(--bs-gutter-x) / 2);
+	order: 1;
+	z-index: 1;
 	@include media-breakpoint-up(md) {			
 		padding-left: 0;
+		order: 0;
 	}
 	h2 {
 		color: $white;
@@ -72,11 +75,49 @@
 
 #block-savethedatectaimage {
 	flex: 1 1 50%;
+	position: relative;
 	img {
 		max-width: 100%;
 		height: auto;
+		width: auto;
+		height: 100%;
 	}
 	p {
 		margin: 0;
+		height: 100%;
 	}
+	.field--name-body {
+		height: 100%;
+	}
+	.arrow-up { 
+		height: 100px;
+		-webkit-clip-path: polygon(50% 0%, 0 21%, 100% 21%);
+		clip-path: polygon(50% 0%, 0 23%, 100% 23%);
+		background-color: $ted-red;
+		display: inline-block;
+		position: absolute;
+		bottom: -77px;
+		left: 0;
+		right: 0;
+		
+	}
+	.arrow-side {
+		display: none;
+	}
+}
+@include media-breakpoint-up(md) {		
+#block-savethedatectaimage {	
+	.arrow-up {
+		display: none;
+	}
+	.arrow-side {
+		display: inline-block;
+		background-color: $ted-red;
+		clip-path: polygon(0 0, 8% 50%, 0 100%);
+		position: absolute;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
 }
