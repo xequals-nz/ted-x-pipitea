@@ -14097,12 +14097,12 @@ form.webform-submission-form label {
     height: 100%; }
   #block-savethedatectaimage .arrow-up {
     height: 100px;
-    -webkit-clip-path: polygon(50% 0%, 0 21%, 100% 21%);
-    clip-path: polygon(50% 0%, 0 23%, 100% 23%);
+    -webkit-clip-path: polygon(50% 0%, 0px 25%, 100% 25%);
+    clip-path: polygon(50% 0%, 0px 25%, 100% 25%);
     background-color: #f52c0c;
     display: inline-block;
     position: absolute;
-    bottom: -77px;
+    bottom: -75px;
     left: 0;
     right: 0; }
   #block-savethedatectaimage .arrow-side {
@@ -14114,12 +14114,12 @@ form.webform-submission-form label {
   #block-savethedatectaimage .arrow-side {
     display: inline-block;
     background-color: #f52c0c;
-    -webkit-clip-path: polygon(0 0, 8% 50%, 0 100%);
-            clip-path: polygon(0 0, 8% 50%, 0 100%);
+    -webkit-clip-path: polygon(0px 0px, 100% 50%, 0px 100%);
+            clip-path: polygon(0px 0px, 100% 50%, 0px 100%);
     position: absolute;
     left: 0;
     height: 100%;
-    width: 100%; } }
+    width: 30px; } }
 
 .about .after {
   background-color: #fff; }

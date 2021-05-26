@@ -91,12 +91,12 @@
 	}
 	.arrow-up { 
 		height: 100px;
-		-webkit-clip-path: polygon(50% 0%, 0 21%, 100% 21%);
-		clip-path: polygon(50% 0%, 0 23%, 100% 23%);
+		-webkit-clip-path: polygon(50% 0%, 0px 25%, 100% 25%);
+		clip-path: polygon(50% 0%, 0px 25%, 100% 25%);
 		background-color: $ted-red;
 		display: inline-block;
 		position: absolute;
-		bottom: -77px;
+		bottom: -75px;
 		left: 0;
 		right: 0;
 		
@@ -113,11 +113,11 @@
 	.arrow-side {
 		display: inline-block;
 		background-color: $ted-red;
-		clip-path: polygon(0 0, 8% 50%, 0 100%);
+		clip-path: polygon(0px 0px, 100% 50%, 0px 100%);
 		position: absolute;
 		left: 0;
 		height: 100%;
-		width: 100%;
+		width: 30px;
 	}
 }
 }
