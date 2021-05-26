@@ -3,3 +3,29 @@
 		background-color: $white; 
 	}
 }
+
+
+
+
+.block-views-blockteam-member-view-block-1 {
+	&.views-element-container {
+		@extend .container;
+	}
+	h2 {
+		@extend .section-subtitle;
+		font-weight: bold;
+	}
+	.view-team-member-view  {
+		.view-content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		article {
+			h2 {
+				@extend .h2;
+			}
+		}
+	}
+}
+
