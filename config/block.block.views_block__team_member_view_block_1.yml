@@ -1,0 +1,29 @@
+uuid: e42ac95d-af62-4028-bed5-5ef2735064d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team_member_view
+  module:
+    - system
+    - views
+  theme:
+    - tedx_pipitea_theme
+id: views_block__team_member_view_block_1
+theme: tedx_pipitea_theme
+region: content_after
+weight: 0
+provider: null
+plugin: 'views_block:team_member_view-block_1'
+settings:
+  id: 'views_block:team_member_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false

@@ -1,0 +1,18 @@
+uuid: eacfa296-1494-4f9a-8e80-ab6c68d8d263
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Speaker
+type: speakers
+description: 'List of speakers at said event'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
