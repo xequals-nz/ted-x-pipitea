@@ -1,0 +1,20 @@
+.contact {
+	.node__content {
+		display: flex;
+		flex-direction: column;
+		@include media-breakpoint-up(md) {	
+		flex-direction: row;
+			form.webform-submission-form .webform-button--submit{
+				margin-left: 0;
+			}
+		}
+		.field--name-field-paragraph-container {
+			@include media-breakpoint-up(md) {			
+				order: 1;
+				margin-left: 30px;
+			}
+
+		}
+	}
+
+}
