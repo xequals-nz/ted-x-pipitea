@@ -1,0 +1,25 @@
+uuid: d1e9f711-91bc-463e-95e4-322a947dc554
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f2339961-9a95-48c0-952c-82d4dc12d416'
+  module:
+    - block_content
+  theme:
+    - tedx_pipitea_theme
+id: socialmedialinks
+theme: tedx_pipitea_theme
+region: footer_sub_left
+weight: -8
+provider: null
+plugin: 'block_content:f2339961-9a95-48c0-952c-82d4dc12d416'
+settings:
+  id: 'block_content:f2339961-9a95-48c0-952c-82d4dc12d416'
+  label: 'Social media links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

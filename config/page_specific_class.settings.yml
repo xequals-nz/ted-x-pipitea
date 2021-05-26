@@ -1,3 +1,3 @@
-url_with_class: /contact|contact
+url_with_class: "/contact|contact\r\n/about|about"
 _core:
   default_config_hash: WKPJoaS0nZiIboNwD58sBSpxmtib3XbeyMWgbExqsnE
