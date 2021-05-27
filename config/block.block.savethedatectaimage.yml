@@ -12,7 +12,7 @@ dependencies:
 id: savethedatectaimage
 theme: tedx_pipitea_theme
 region: content_after
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:49534829-7b9e-4b51-b144-7045639902f5'
 settings:

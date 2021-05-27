@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.team_member.body
     - field.field.node.team_member.field_image
+    - image.style.portrait_320x320_
     - node.type.team_member
   module:
     - image
@@ -26,7 +27,7 @@ content:
     weight: 1
     label: visually_hidden
     settings:
-      image_style: ''
+      image_style: portrait_320x320_
       image_link: ''
     third_party_settings: {  }
     type: image

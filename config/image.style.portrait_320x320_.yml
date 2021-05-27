@@ -1,0 +1,15 @@
+uuid: bdd2bbd2-70a7-4f39-bf07-87f734212286
+langcode: en
+status: true
+dependencies: {  }
+name: portrait_320x320_
+label: 'Portrait (320x320)'
+effects:
+  3d71ba57-a15a-4b00-8780-4ed870d872a1:
+    uuid: 3d71ba57-a15a-4b00-8780-4ed870d872a1
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 320
+      height: 320
+      anchor: center-center
