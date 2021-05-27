@@ -14153,10 +14153,13 @@ form.webform-submission-form label {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 100%;
-  background-size: 200px; }
-  @media (min-width: 992px) {
+  background-size: 400px; }
+  @media (min-width: 768px) {
     .about main {
       background-size: 500px; } }
+  @media (min-width: 992px) {
+    .about main {
+      background-size: initial; } }
 
 .about .node__content {
   max-width: 720px; }
@@ -14221,3 +14224,7 @@ form.webform-submission-form label {
           -ms-flex-order: 1;
               order: 1;
       margin-left: 30px; } }
+  .contact .node__content .field--name-field-paragraph-container .paragraph--type--paragraph-section {
+    margin-top: 20px; }
+  .contact .node__content .field--name-field-paragraph-container .paragraph--type--text-paragraph {
+    padding: 0; }

@@ -8,11 +8,13 @@
 	    background-repeat: no-repeat;
     	background-position-x: 100%;
     	background-position-y: 100%;
-    	background-size: 200px;
+    	background-size: 400px;
     	
-    	@include media-breakpoint-up(lg) {	
+    	@include media-breakpoint-up(md) {	
     		background-size: 500px;
-
+		}
+    	@include media-breakpoint-up(lg) {	
+    		background-size: initial;
     	}
 	}
 	.node__content {
