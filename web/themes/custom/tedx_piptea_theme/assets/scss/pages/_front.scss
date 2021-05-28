@@ -1,13 +1,26 @@
 .path-frontpage {
 	#header-brand {
-		display: none;
+		display: block;
 	}
+
 	#header-menu {
-		padding-top: 2rem;
 		.hide-logo {
-			display: inline-block;
+    		display: none;
+   		 }
+	}
+
+	&.solid {
+		#header-brand, #header-menu {
+			background-color: $ted-black !important;
 		}
-	} 
+	}
+	#header-brand, #header-menu {
+		background-color: transparent !important;
+	}
+
+	#menu-main {
+		margin-left: 0;
+	}
 	.dialog-off-canvas-main-canvas {
 		background-image: url('/themes/custom/tedx_piptea_theme/landing-page-header.png');
 		background-position-y: -15%;

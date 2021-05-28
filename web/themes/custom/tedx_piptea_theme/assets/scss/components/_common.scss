@@ -37,13 +37,25 @@
 }
 
 #header-menu {
-	.navbar-brand {
-		img {
-			display: block;
-		}
+	.hide-logo {
+		display: block;
 	}
 }
 
+#header-menu {
+	background-color: $ted-black !important;	
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	img.logo {
+		width: 300px;
+		height: auto;
+		max-height: none;
+	}
+}
+
+#menu-main {
+	margin-left: auto;
+}
 
 main {
 	padding-bottom: 30px;
