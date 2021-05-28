@@ -3,9 +3,11 @@ padding-top: 2rem !important;
 	
 }
 
-.solid {
-	#header-brand, #header-menu {
-		background-color: $ted-black !important;
+.path-frontpage {
+	&.solid {
+		#header-brand, #header-menu {
+			background-color: $ted-black !important;
+		}
 	}
 }
 

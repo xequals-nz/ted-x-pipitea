@@ -13965,6 +13965,12 @@ body {
   #header-menu .nav.navbar-nav li.nav-item {
     margin-right: 40px; } }
 
+#header-brand {
+  display: none; }
+
+#header-menu .navbar-brand img {
+  display: block; }
+
 main {
   padding-bottom: 30px; }
 
@@ -13999,6 +14005,10 @@ footer .region-footer-left .block ul a {
 .field--type-image img {
   height: auto; }
 
+.field--type-image .caption {
+  background-color: #111111;
+  color: #fff; }
+
 .paragraph--type--text-paragraph {
   padding: 15px;
   max-width: 900px; }
@@ -14012,7 +14022,7 @@ form.webform-submission-form label {
 #header-brand {
   padding-top: 2rem !important; }
 
-.solid #header-brand, .solid #header-menu {
+.path-frontpage.solid #header-brand, .path-frontpage.solid #header-menu {
   background-color: #111111 !important; }
 
 #header-brand, #header-menu {
@@ -14228,3 +14238,16 @@ form.webform-submission-form label {
     margin-top: 20px; }
   .contact .node__content .field--name-field-paragraph-container .paragraph--type--text-paragraph {
     padding: 0; }
+
+.page-node-type-blog main {
+  background-color: #fff; }
+
+.page-node-type-blog .field--name-field-section-title {
+  color: #f52c0c; }
+
+.page-node-type-blog #header-menu {
+  background-color: #111111 !important; }
+
+#header-menu {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }

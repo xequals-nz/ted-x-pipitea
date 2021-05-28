@@ -32,6 +32,19 @@
 		}
 }
 
+#header-brand {
+	display: none;
+}
+
+#header-menu {
+	.navbar-brand {
+		img {
+			display: block;
+		}
+	}
+}
+
+
 main {
 	padding-bottom: 30px;
 }
