@@ -14,11 +14,6 @@ body{
 	background-color: $ted-black !important;
 }
 
-#header-brand, #header-menu, .bg-secondary {
+#header-brand, .bg-secondary {
 	background-color: inherit !important;	
-	img.logo {
-		width: 300px;
-		height: auto;
-		max-height: none;
-	}
 }

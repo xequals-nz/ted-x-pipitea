@@ -13892,12 +13892,8 @@ strong {
 body {
   background-color: #111111 !important; }
 
-#header-brand, #header-menu, .bg-secondary {
+#header-brand, .bg-secondary {
   background-color: inherit !important; }
-  #header-brand img.logo, #header-menu img.logo, .bg-secondary img.logo {
-    width: 300px;
-    height: auto;
-    max-height: none; }
 
 .red-with-arrow {
   height: 100%;
@@ -13965,6 +13961,24 @@ body {
   #header-menu .nav.navbar-nav li.nav-item {
     margin-right: 40px; } }
 
+#header-brand {
+  display: none; }
+
+#header-menu .hide-logo {
+  display: block; }
+
+#header-menu {
+  background-color: #111111 !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #header-menu img.logo {
+    width: 300px;
+    height: auto;
+    max-height: none; }
+
+#menu-main {
+  margin-left: auto; }
+
 main {
   padding-bottom: 30px; }
 
@@ -13999,6 +14013,10 @@ footer .region-footer-left .block ul a {
 .field--type-image img {
   height: auto; }
 
+.field--type-image .caption {
+  background-color: #111111;
+  color: #fff; }
+
 .paragraph--type--text-paragraph {
   padding: 15px;
   max-width: 900px; }
@@ -14010,23 +14028,29 @@ form.webform-submission-form label {
   display: none; }
 
 #header-brand {
-  padding-top: 2rem !important; }
-
-.solid #header-brand, .solid #header-menu {
-  background-color: #111111 !important; }
-
-#header-brand, #header-menu {
+  padding-top: 2rem !important;
   background-color: transparent !important;
   -webkit-box-shadow: none;
           box-shadow: none; }
+  #header-brand img.logo {
+    width: 300px;
+    height: auto;
+    max-height: none; }
 
 .path-frontpage #header-brand {
+  display: block; }
+
+.path-frontpage #header-menu .hide-logo {
   display: none; }
 
-.path-frontpage #header-menu {
-  padding-top: 2rem; }
-  .path-frontpage #header-menu .hide-logo {
-    display: inline-block; }
+.path-frontpage.solid #header-brand, .path-frontpage.solid #header-menu {
+  background-color: #111111 !important; }
+
+.path-frontpage #header-brand, .path-frontpage #header-menu {
+  background-color: transparent !important; }
+
+.path-frontpage #menu-main {
+  margin-left: 0; }
 
 .path-frontpage .dialog-off-canvas-main-canvas {
   background-image: url("/themes/custom/tedx_piptea_theme/landing-page-header.png");
@@ -14144,6 +14168,9 @@ form.webform-submission-form label {
     height: 100%;
     width: 30px; } }
 
+.about #header-menu {
+  background-color: #111111 !important; }
+
 .about .after {
   background-color: #fff;
   padding: 30px 0; }
@@ -14228,3 +14255,12 @@ form.webform-submission-form label {
     margin-top: 20px; }
   .contact .node__content .field--name-field-paragraph-container .paragraph--type--text-paragraph {
     padding: 0; }
+
+.page-node-type-blog main {
+  background-color: #fff; }
+
+.page-node-type-blog .field--name-field-section-title {
+  color: #f52c0c; }
+
+.page-node-type-blog #header-menu {
+  background-color: #111111 !important; }
