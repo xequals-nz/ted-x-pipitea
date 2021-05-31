@@ -14018,7 +14018,7 @@ footer .region-footer-left .block ul a {
   color: #fff; }
 
 .paragraph--type--text-paragraph {
-  padding: 15px;
+  padding: 15px 0;
   max-width: 900px; }
 
 form.webform-submission-form input.form-control, form.webform-submission-form textarea.form-control {
@@ -14036,6 +14036,10 @@ form.webform-submission-form label {
     width: 300px;
     height: auto;
     max-height: none; }
+
+#header-menu {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 .path-frontpage #header-brand {
   display: block; }
@@ -14260,7 +14264,11 @@ form.webform-submission-form label {
   background-color: #fff; }
 
 .page-node-type-blog .field--name-field-section-title {
-  color: #f52c0c; }
+  color: #f52c0c;
+  font-weight: bold; }
 
 .page-node-type-blog #header-menu {
   background-color: #111111 !important; }
+
+.page-node-type-blog p {
+  color: #000; }
