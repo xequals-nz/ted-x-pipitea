@@ -1,0 +1,21 @@
+uuid: 7469a153-5e55-496e-91ba-17f0cf0819f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_one
+    - paragraphs.paragraphs_type.two_column_text
+  module:
+    - text
+id: paragraph.two_column_text.field_column_one
+field_name: field_column_one
+entity_type: paragraph
+bundle: two_column_text
+label: 'Column One'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
