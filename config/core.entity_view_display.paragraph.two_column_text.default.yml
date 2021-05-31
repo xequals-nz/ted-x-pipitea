@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.two_column_text.field_column_one
     - field.field.paragraph.two_column_text.field_column_two
+    - field.field.paragraph.two_column_text.field_section_title
     - paragraphs.paragraphs_type.two_column_text
   module:
     - text
@@ -14,17 +15,25 @@ bundle: two_column_text
 mode: default
 content:
   field_column_one:
-    weight: 0
-    label: above
+    weight: 1
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_column_two:
-    weight: 1
-    label: above
+    weight: 2
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_section_title:
+    weight: 0
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
 hidden: {  }

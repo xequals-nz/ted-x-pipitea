@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.two_column_text.field_column_one
     - field.field.paragraph.two_column_text.field_column_two
+    - field.field.paragraph.two_column_text.field_section_title
     - paragraphs.paragraphs_type.two_column_text
   module:
     - text
@@ -14,7 +15,7 @@ bundle: two_column_text
 mode: default
 content:
   field_column_one:
-    weight: 0
+    weight: 1
     settings:
       rows: 5
       placeholder: ''
@@ -22,12 +23,20 @@ content:
     type: text_textarea
     region: content
   field_column_two:
-    weight: 1
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_section_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true
