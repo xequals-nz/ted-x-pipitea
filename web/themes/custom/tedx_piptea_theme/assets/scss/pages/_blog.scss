@@ -4,9 +4,13 @@
 	}
 	.field--name-field-section-title {
 		color: $ted-red;
+		font-weight: bold;
 	}	
 	#header-menu {
 		background-color: #111111 !important;
+	}
+	p {
+		color: $black;
 	}
 }
 
