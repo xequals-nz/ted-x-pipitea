@@ -12,5 +12,11 @@
 	p {
 		color: $black;
 	}
+	.paragraph--type--text-paragraph {
+		max-width: none;
+	}
+	.paragraph--type--paragraph-section .field--name-field-paragraphs .field__items .field__item {
+		flex: 1 1 auto;
+	}
 }
 

@@ -13814,19 +13814,10 @@ ol.breadcrumb .breadcrumb-item {
         flex-wrap: wrap; }
 
 @media (min-width: 992px) {
-  .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-    .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items > * {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1; } }
+  .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items > .field_item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; } }
 
 /* ---------------------------------------------------------------------------*/
 /* SUBTHEME                                                                   */
@@ -14020,6 +14011,25 @@ footer .region-footer-left .block ul a {
 .paragraph--type--text-paragraph {
   padding: 15px 0;
   max-width: 900px; }
+
+.paragraph--type--two-column-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .paragraph--type--two-column-text .field--name-field-section-title {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+  .paragraph--type--two-column-text .field--type-text-long {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+    .paragraph--type--two-column-text .field--type-text-long .caption {
+      margin: auto; }
+      .paragraph--type--two-column-text .field--type-text-long .caption > figcaption {
+        background-color: #111111;
+        color: #fff;
+        padding: 5px; }
 
 form.webform-submission-form input.form-control, form.webform-submission-form textarea.form-control {
   background-color: #111111; }
@@ -14272,3 +14282,11 @@ form.webform-submission-form label {
 
 .page-node-type-blog p {
   color: #000; }
+
+.page-node-type-blog .paragraph--type--text-paragraph {
+  max-width: none; }
+
+.page-node-type-blog .paragraph--type--paragraph-section .field--name-field-paragraphs .field__items .field__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }

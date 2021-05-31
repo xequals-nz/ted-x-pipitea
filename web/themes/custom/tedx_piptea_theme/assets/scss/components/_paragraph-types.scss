@@ -14,3 +14,25 @@
 	padding: 15px 0;
 	max-width: 900px;
 }
+
+
+.paragraph--type--two-column-text {
+	display: flex;
+	flex-wrap: wrap;
+	.field--name-field-section-title {
+		flex-basis: 100%;
+	}
+	.field--type-text-long {
+		// display: flex;
+		// justify-content: center;
+		flex-basis: 50%;
+		.caption {
+			margin: auto;
+			> figcaption {
+			 	background-color: $ted-black;
+			 	color: $white;
+			 	padding: 5px;
+			 }
+		}
+	}
+}
