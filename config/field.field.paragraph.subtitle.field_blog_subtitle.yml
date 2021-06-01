@@ -1,0 +1,21 @@
+uuid: 468ad6ba-785c-4f0c-9b8a-5b43049b21bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blog_subtitle
+    - paragraphs.paragraphs_type.subtitle
+  module:
+    - text
+id: paragraph.subtitle.field_blog_subtitle
+field_name: field_blog_subtitle
+entity_type: paragraph
+bundle: subtitle
+label: 'Blog Subtitle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
