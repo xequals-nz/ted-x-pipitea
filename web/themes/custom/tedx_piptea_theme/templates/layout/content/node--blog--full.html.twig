@@ -85,17 +85,16 @@
   {% if display_submitted %}
       {{ content['field_image'] }}
     <footer class="node__meta">
+      {{ label }}
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
-        {{ content['title'] }}
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        {% trans %} by {{ author_name }} on {{ date }}{% endtrans %}
         {{ metadata }}
       </div>
     </footer>
   {% endif %}
-  {{ label }}
   <div{{ content_attributes.addClass('node__content') }}>
-  {{ content['title'][0] }}
+
   {{ content['field_paragraph_container'] }}
 
   </div>

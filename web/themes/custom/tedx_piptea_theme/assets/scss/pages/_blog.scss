@@ -18,5 +18,21 @@
 	.paragraph--type--paragraph-section .field--name-field-paragraphs .field__items .field__item {
 		flex: 1 1 auto;
 	}
+	article {
+		.node__meta {
+			width: 100%;
+			text-align: center;
+			display: inline-block;
+			font-weight: bold;
+			color: $black;
+			margin: 10px 0;
+		    .node__submitted {
+		    	color: $black;
+		    	width: 100%;
+				text-align: center;
+				display: inline-block;
+		    }
+		}
+	}
 }
 

@@ -22,17 +22,27 @@
 	.field--name-field-section-title {
 		flex-basis: 100%;
 	}
-	.field--type-text-long {
-		// display: flex;
-		// justify-content: center;
-		flex-basis: 50%;
-		.caption {
-			margin: auto;
-			> figcaption {
-			 	background-color: $ted-black;
-			 	color: $white;
-			 	padding: 5px;
-			 }
+	.caption {
+		margin: auto;
+		> figcaption {
+		 	background-color: $ted-black;
+		 	color: $white;
+		 	padding: 5px;
+		 }
+	}
+	.field--type-text-long { 
+		width: 100%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		.field--type-text-long {
+			flex-basis: 50%;
 		}
 	}
+
+}
+
+.field--name-field-blog-subtitle {
+	color: $ted-red;
+	font-weight: bold;
 }
