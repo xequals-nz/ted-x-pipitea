@@ -4,23 +4,40 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.blog.field_blog_summary
     - field.field.node.blog.field_image
     - field.field.node.blog.field_paragraph_container
-    - field.field.node.blog.field_paragraph_types
     - node.type.blog
   module:
+    - image
+    - text
     - user
 id: node.blog.teaser
 targetEntityType: node
 bundle: blog
 mode: teaser
 content:
+  field_blog_summary:
+    type: text_trimmed
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
-  field_image: true
   field_paragraph_container: true
-  field_paragraph_types: true

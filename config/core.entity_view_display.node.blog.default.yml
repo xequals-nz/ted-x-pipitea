@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.blog.field_blog_summary
     - field.field.node.blog.field_image
     - field.field.node.blog.field_paragraph_container
-    - field.field.node.blog.field_paragraph_types
     - node.type.blog
   module:
     - entity_reference_revisions
@@ -34,14 +34,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
-  field_paragraph_types:
-    type: entity_reference_revisions_entity_view
-    weight: 2
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    region: content
 hidden:
+  field_blog_summary: true
   links: true
