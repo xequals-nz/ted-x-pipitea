@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.blog.field_blog_summary
     - field.field.node.blog.field_image
     - field.field.node.blog.field_paragraph_container
+    - image.style.blog_banner_thumbnail
     - node.type.blog
   module:
     - image
@@ -19,7 +20,7 @@ mode: teaser
 content:
   field_blog_summary:
     type: smart_trim
-    weight: 0
+    weight: 1
     region: content
     label: hidden
     settings:
@@ -38,11 +39,11 @@ content:
     third_party_settings: {  }
   field_image:
     type: image
-    weight: 1
+    weight: 0
     region: content
     label: hidden
     settings:
-      image_style: ''
+      image_style: blog_banner_thumbnail
       image_link: ''
     third_party_settings: {  }
   links:

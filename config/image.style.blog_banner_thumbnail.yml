@@ -1,0 +1,15 @@
+uuid: 42d0ddfe-3805-4721-86ca-3dae6996219d
+langcode: en
+status: true
+dependencies: {  }
+name: blog_banner_thumbnail
+label: 'Blog banner thumbnail'
+effects:
+  1a861254-4bea-4f8a-bfce-200ac0eae752:
+    uuid: 1a861254-4bea-4f8a-bfce-200ac0eae752
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 200
+      anchor: center-center
