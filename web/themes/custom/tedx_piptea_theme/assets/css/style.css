@@ -14064,6 +14064,16 @@ footer .region-footer-left .block ul a {
   color: #f52c0c;
   font-weight: bold; }
 
+.paragraph--type--image-paragraph {
+  text-align: center; }
+  .paragraph--type--image-paragraph .image-wrapper {
+    display: inline-block; }
+  .paragraph--type--image-paragraph .field--name-field-image-caption {
+    text-align: left;
+    background-color: #111111;
+    color: #fff;
+    padding: 5px; }
+
 form.webform-submission-form input.form-control, form.webform-submission-form textarea.form-control {
   background-color: #111111; }
 

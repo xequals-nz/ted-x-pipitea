@@ -46,3 +46,16 @@
 	color: $ted-red;
 	font-weight: bold;
 }
+
+.paragraph--type--image-paragraph {
+	text-align: center;
+	.image-wrapper {
+		display: inline-block;
+	}
+	.field--name-field-image-caption {
+		text-align: left;
+		background-color: $ted-black;
+		color: $white;
+		padding: 5px;
+	}
+}
