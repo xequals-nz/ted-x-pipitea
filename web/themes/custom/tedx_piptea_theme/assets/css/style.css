@@ -14275,19 +14275,7 @@ form.webform-submission-form label {
           justify-content: space-between; }
 
 .block-views-blockteam-member-view-block-1 .view-team-member-view article {
-  max-width: 320px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative; }
-  .block-views-blockteam-member-view-block-1 .view-team-member-view article .h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view #block-oursponsors article h2, #block-oursponsors .block-views-blockteam-member-view-block-1 .view-team-member-view article h2 {
-    position: absolute; }
+  max-width: 320px; }
 
 #block-oursponsors .field--name-body {
   display: -webkit-box;
