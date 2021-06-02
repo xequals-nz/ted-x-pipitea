@@ -10,7 +10,14 @@
 		background-color: #111111 !important;
 	}
 	p {
-		color: $black;
+		color: $ted-black;
+		a {
+			color: $ted-red;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 	.paragraph--type--text-paragraph {
 		max-width: none;

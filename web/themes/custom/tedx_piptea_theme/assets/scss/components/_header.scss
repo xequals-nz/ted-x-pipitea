@@ -11,4 +11,24 @@
 
 #header-menu {
 	box-shadow: none;
+	padding-top: 1rem;
+	padding-bottom: 0rem;
+	img.logo {
+		width: 200px;
+	}
+	@include media-breakpoint-up(lg){
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		img.logo {
+			width: 300px;
+		}
+	}
+}
+
+#menu-add {
+	height: auto;
+}
+
+#navigation-container {
+	margin-top: 20px;
 }
