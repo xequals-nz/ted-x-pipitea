@@ -163,21 +163,8 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Blog view'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: '<h1 class="page-title">Blog</h1>'
-            format: basic_html
-          plugin_id: text
+      title: Blog
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
