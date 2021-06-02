@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.image_paragraph.field_image
+    - field.field.paragraph.image_paragraph.field_image_caption
     - paragraphs.paragraphs_type.image_paragraph
   module:
     - image
@@ -14,11 +15,19 @@ mode: default
 content:
   field_image:
     weight: 0
-    label: visually_hidden
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_image_caption:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
 hidden: {  }
