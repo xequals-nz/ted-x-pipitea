@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - node
     - system
   theme:
     - tedx_pipitea_theme
@@ -21,18 +20,7 @@ settings:
   provider: core
   label_display: '0'
 visibility:
-  node_type:
-    id: node_type
-    bundles:
-      article: article
-      page: page
-      paragraphs_page: paragraphs_page
-      speakers: speakers
-      team_member: team_member
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
   request_path:
     id: request_path
-    pages: ''
+    pages: '/blog/*'
     negate: true
