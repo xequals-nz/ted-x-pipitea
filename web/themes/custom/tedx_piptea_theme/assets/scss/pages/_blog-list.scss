@@ -45,7 +45,12 @@
 				@extend .square-button;
 				border-color: $ted-red;
 				color: $ted-red;
+				&:hover {
+					background-color: $ted-red;
+					color: white;
+				}
 			}
+
 		}
 		.node__links {
 			text-align: center;

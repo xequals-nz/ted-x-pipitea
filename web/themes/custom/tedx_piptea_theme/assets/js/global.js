@@ -141,4 +141,13 @@
       }
     });
   });
+
+  // //////////////////////////////////////////////////////////////////////////////
+  // [ BACKGROUND IMAGE FOR CTA FRONT PAGE ]
+  $(() => {
+    const ctaimg = $('#block-savethedatectaimage p');
+    const imageUrl = $('#block-savethedatectaimage img').attr('src');
+    ctaimg.css("background-image", "url(" + imageUrl + ")");
+
+  });
 })(jQuery, Drupal);

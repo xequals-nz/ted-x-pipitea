@@ -25,10 +25,30 @@
 	}
 }
 
+.d-md-flex .d-none {
+	display: block !important;
+}
+
 #menu-add {
 	height: auto;
 }
 
 #navigation-container {
-	margin-top: 20px;
+	@include media-breakpoint-down(md) {
+		margin-top: -50px;
+	}
+}
+
+.navbar-toggler-icon {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+
+}
+
+header nav .container .ml-md-0 {
+	display: none;
+}
+.solid header nav .container .ml-md-0 {
+	display: block;
 }

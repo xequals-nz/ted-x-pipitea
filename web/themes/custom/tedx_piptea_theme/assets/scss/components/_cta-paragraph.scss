@@ -1,5 +1,5 @@
 .paragraph--type--cta-paragraph {
-	max-width: 350px;
+	max-width: 100%;
 	background-color: $ted-dark-grey;
 	padding: 20px;
 	margin-bottom: 15px;
@@ -23,4 +23,13 @@
 			@extend .square-button;
 		}
 	}
+	@include media-breakpoint-up(lg){
+		height: 400px;
+		max-width: 300px;
+	}
+	@include media-breakpoint-up(xl){
+		height: 382px;
+		max-width: 350px;
+	}
+
 }
