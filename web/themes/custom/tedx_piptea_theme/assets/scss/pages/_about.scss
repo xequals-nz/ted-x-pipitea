@@ -37,9 +37,40 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
+			.views-row{
+				@include media-breakpoint-down(lg){
+					flex-basis: 100%;
+					article {
+						display: flex;
+						max-width: 100%;
+						padding: 10px 0;
+						justify-content: flex-end;
+						align-items: center;
+						flex-direction: row-reverse;
+						@include media-breakpoint-down(md){
+							display: block;
+						}
+						h2 {
+							flex-basis: 40%;
+							@include media-breakpoint-down(md){
+								padding-bottom: 10px;
+							}
+						}
+						.node__content {
+							flex-basis: 50%;
+						}
+					}
+				}
+				//@include media-breakpoint-down(md){
+				//	display: block;
+				//}
+			}
 		}
 		article {
 			max-width: 320px;
+			@include media-breakpoint-down(xl){
+				max-width: 250px;
+			}
 			h2 {
 				@extend .h2;
 			}
