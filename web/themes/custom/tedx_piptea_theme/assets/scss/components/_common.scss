@@ -106,19 +106,30 @@ footer .region-footer-left .block ul {
 	
 }
 
-/* The emerging W3C standard
-       that is currently Firefox-only */
-* {
-	scrollbar-color: $ted-red transparent; }
+.menu-footer {
+	display: flex;
+	.menu-item {
+		flex-direction: row;
+		a {
+			text-align: left;
+		}
+	}
+}
 
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-	width: 12px; }
+	/* The emerging W3C standard
+           that is currently Firefox-only */
+	* {
+		scrollbar-color: $ted-red transparent; }
 
-*::-webkit-scrollbar-track {
-	background: transparent; }
+	/* Works on Chrome/Edge/Safari */
+	*::-webkit-scrollbar {
+		width: 12px; }
 
-*::-webkit-scrollbar-thumb {
-	background-color: $ted-red;
-	border-radius: 0;
-	border: 3px solid transparent; }
+	*::-webkit-scrollbar-track {
+		background: transparent; }
+
+	*::-webkit-scrollbar-thumb {
+		background-color: $ted-red;
+		border-radius: 0;
+		border: 3px solid transparent; }
+

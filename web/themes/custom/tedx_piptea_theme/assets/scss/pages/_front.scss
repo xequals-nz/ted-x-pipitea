@@ -169,18 +169,19 @@
 	}
 }
 @include media-breakpoint-up(md) {		
-#block-savethedatectaimage {	
-	.arrow-up {
-		display: none;
-	}
-	.arrow-side {
-		display: inline-block;
-		background-color: $ted-red;
-		clip-path: polygon(0px 0px, 100% 50%, 0px 100%);
-		position: absolute;
-		left: -1px;
-		height: 100%;
-		width: 30px;
+	#block-savethedatectaimage {
+		.arrow-up {
+			display: none;
+		}
+		.arrow-side {
+			display: inline-block;
+			background-color: $ted-red;
+			clip-path: polygon(0px 0px, 100% 50%, 0px 100%);
+			position: absolute;
+			left: -1px;
+			height: 100%;
+			width: 30px;
+		}
 	}
 }
-}
+

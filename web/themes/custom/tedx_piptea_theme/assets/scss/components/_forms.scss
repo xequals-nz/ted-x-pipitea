@@ -9,3 +9,19 @@ form.webform-submission-form {
 		display: none;
 	}
 }
+
+#captcha {
+	border: none !important;
+	margin: 0;
+	padding: 0;
+	summary {
+		display: none;
+	}
+	.details-wrapper {
+		margin: 20px 0;
+		padding: 0;
+		.details-description {
+			display: none;
+		}
+	}
+}

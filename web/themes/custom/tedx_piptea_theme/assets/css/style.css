@@ -14015,8 +14015,20 @@ footer .region-footer-left .block ul a {
   footer .region-footer-left .block ul a:hover {
     text-decoration: underline; }
 
+.menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .menu-footer .menu-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .menu-footer .menu-item a {
+      text-align: left; }
+
 /* The emerging W3C standard
-       that is currently Firefox-only */
+           that is currently Firefox-only */
 * {
   scrollbar-color: #f52c0c transparent; }
 
@@ -14084,6 +14096,18 @@ form.webform-submission-form input.form-control, form.webform-submission-form te
 
 form.webform-submission-form label {
   display: none; }
+
+#captcha {
+  border: none !important;
+  margin: 0;
+  padding: 0; }
+  #captcha summary {
+    display: none; }
+  #captcha .details-wrapper {
+    margin: 20px 0;
+    padding: 0; }
+    #captcha .details-wrapper .details-description {
+      display: none; }
 
 #header-brand {
   padding-top: 2rem !important;
