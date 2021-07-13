@@ -14485,6 +14485,12 @@ form.webform-submission-form label {
   .contact .node__content .field--name-field-paragraph-container .paragraph--type--text-paragraph {
     padding: 0; }
 
+.field__item strong img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px; }
+
 .page-node-type-blog main {
   background-color: #fff; }
 
