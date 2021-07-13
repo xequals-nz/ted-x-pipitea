@@ -14362,6 +14362,16 @@ form.webform-submission-form label {
     height: 100%;
     width: 30px; } }
 
+#block-socialmedialinks div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px; }
+  #block-socialmedialinks div p a img {
+    height: 30px;
+    width: auto;
+    padding-right: 10px; }
+
 .about #header-menu {
   background-color: #111111 !important; }
 

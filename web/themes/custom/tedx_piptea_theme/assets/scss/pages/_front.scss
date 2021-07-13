@@ -185,3 +185,14 @@
 	}
 }
 
+//footer
+
+#block-socialmedialinks div {
+	display: flex;
+	margin-bottom: 20px;
+	p a img {
+		height: 30px;
+		width: auto;
+		padding-right: 10px;
+	}
+}
