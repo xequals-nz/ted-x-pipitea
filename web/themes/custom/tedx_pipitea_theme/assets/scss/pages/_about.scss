@@ -1,0 +1,101 @@
+.about {
+	#header-menu {
+		background-color: $ted-black !important; 
+	}
+	.after {
+		background-color: $white; 
+		padding: 30px 0;
+	}
+	main {
+		background-image: url('/themes/custom/tedx_piptea_theme/about-image.png');
+	    background-repeat: no-repeat;
+    	background-position-x: 100%;
+    	background-position-y: 100%;
+    	background-size: 400px;
+    	
+    	@include media-breakpoint-up(md) {	
+    		background-size: 500px;
+		}
+    	@include media-breakpoint-up(lg) {	
+    		background-size: initial;
+    	}
+	}
+	.node__content {
+		max-width: 720px;
+	}
+}
+
+.block-views-blockteam-member-view-block-1 {
+	&.views-element-container {
+		@extend .container;
+	}
+	h2 {
+		@extend .section-subtitle;
+	}
+	.view-team-member-view  {
+		.view-content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			.views-row{
+				@include media-breakpoint-down(lg){
+					flex-basis: 100%;
+					article {
+						display: flex;
+						max-width: 100%;
+						padding: 10px 0;
+						justify-content: flex-end;
+						align-items: center;
+						flex-direction: row-reverse;
+						@include media-breakpoint-down(md){
+							display: block;
+						}
+						h2 {
+							flex-basis: 40%;
+							@include media-breakpoint-down(md){
+								padding-bottom: 10px;
+							}
+						}
+						.node__content {
+							flex-basis: 50%;
+						}
+					}
+				}
+				//@include media-breakpoint-down(md){
+				//	display: block;
+				//}
+			}
+		}
+		article {
+			max-width: 320px;
+			@include media-breakpoint-down(xl){
+				max-width: 250px;
+			}
+			h2 {
+				@extend .h2;
+			}
+		}
+	}
+}
+
+#block-oursponsors {
+	@extend .container;
+	
+	h2 {
+		@extend .section-subtitle;
+	}
+	.field--name-body {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		p {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	article {
+		h2 {
+			@extend .h2;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.page-node-type-blog {
+	main {
+		background-color: $white;
+	}
+	.field--name-field-section-title {
+		color: $ted-red;
+		font-weight: bold;
+	}	
+	#header-menu {
+		background-color: #111111 !important;
+	}
+	p {
+		color: $ted-black;
+		a {
+			color: $ted-red;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.paragraph--type--text-paragraph {
+		max-width: none;
+	}
+	.paragraph--type--paragraph-section .field--name-field-paragraphs .field__items .field__item {
+		flex: 1 1 auto;
+	}
+	article {
+		.node__meta {
+			width: 100%;
+			text-align: center;
+			display: inline-block;
+			font-weight: bold;
+			color: $black;
+			margin: 10px 0;
+		    .node__submitted {
+		    	color: $black;
+		    	width: 100%;
+				text-align: center;
+				display: inline-block;
+		    }
+		}
+	}
+}

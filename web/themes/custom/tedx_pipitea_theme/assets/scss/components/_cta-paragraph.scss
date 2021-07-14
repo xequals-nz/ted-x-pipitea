@@ -1,0 +1,35 @@
+.paragraph--type--cta-paragraph {
+	max-width: 100%;
+	background-color: $ted-dark-grey;
+	padding: 20px;
+	margin-bottom: 15px;
+	h2 {
+		color: $white;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 14px;
+	} 
+	h3 {
+		font-weight: bold;
+		color: $white;
+	}
+	p {
+		padding: 15px 0;
+	}
+	.field--name-field-link {
+		padding: 15px 0;
+		text-align: center;
+		a {
+			@extend .square-button;
+		}
+	}
+	@include media-breakpoint-up(lg){
+		height: 400px;
+		max-width: 300px;
+	}
+	@include media-breakpoint-up(xl){
+		height: 382px;
+		max-width: 350px;
+	}
+
+}

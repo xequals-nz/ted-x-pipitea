@@ -1,0 +1,138 @@
+#menu-main a.nav-item {
+	text-transform: uppercase;
+	color: $white;
+	font-weight: bold;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:before {
+		content: none;
+	}
+}
+
+.navbar {
+	.container {
+		//max-width: 1180px;
+	}
+	.region-nav-main {
+		padding: 0;
+	}
+}
+
+#header-brand a.navbar-brand, .d-md-none, .sr-only {
+	font-size: 0;
+	.d-md-none, .sr-only {
+		font-size: 0;
+	}
+}
+
+#header-menu .nav.navbar-nav li.nav-item {
+		@include media-breakpoint-up(md) {			
+			margin-right: 40px;
+		}
+}
+
+#header-brand {
+	display: none;
+}
+
+#header-menu {
+	.hide-logo {
+		display: block;
+	}
+}
+
+#header-menu {
+	background-color: $ted-black !important;	
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	img.logo {
+		width: 300px;
+		height: auto;
+		max-height: none;
+	}
+}
+
+#menu-main {
+	margin-left: auto;
+}
+
+main {
+	padding-bottom: 30px;
+}
+
+// Content after
+#content-after {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+// Footers
+
+#page-footer {
+	background-color: $ted-dark-grey !important;
+	margin-top: 0 !important;
+	box-shadow: none;
+}
+
+
+#page-footer-sub {
+	background-color: $white !important;
+}
+
+
+#block-independenttedxstatement-2, #block-tedx-pipitea-theme-account-menu {
+	p {
+		color: $ted-red;
+	}
+}
+
+footer .region-footer-left .block ul {
+	padding-left: 0 !important;
+	li {
+		margin-left: 0;
+		width: 100%;
+		text-align: left;
+		&:before {
+			content: none !important;
+		}
+	}
+	a {
+		text-transform: uppercase;
+		color: $white;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+}
+
+.menu-footer {
+	//display: flex;
+	.menu-item {
+		//flex-direction: row;
+		a {
+			text-align: left;
+		}
+	}
+}
+
+	/* The emerging W3C standard
+           that is currently Firefox-only */
+	* {
+		scrollbar-color: $ted-red transparent; }
+
+	/* Works on Chrome/Edge/Safari */
+	*::-webkit-scrollbar {
+		width: 12px; }
+
+	*::-webkit-scrollbar-track {
+		background: transparent; }
+
+	*::-webkit-scrollbar-thumb {
+		background-color: $ted-red;
+		border-radius: 0;
+		border: 3px solid transparent; }
+
