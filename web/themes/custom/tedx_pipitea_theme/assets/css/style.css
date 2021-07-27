@@ -495,7 +495,7 @@ progress {
   font-size: 0.875em;
   color: #6c757d; }
 
-.container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors,
+.container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors,
 .container-fluid,
 .container-vs,
 .container-sm,
@@ -509,23 +509,23 @@ progress {
   margin-left: auto; }
 
 @media (min-width: 444px) {
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs {
     max-width: 90%; } }
 
 @media (min-width: 576px) {
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm {
     max-width: 90%; } }
 
 @media (min-width: 768px) {
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md {
     max-width: 90%; } }
 
 @media (min-width: 992px) {
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md, .container-lg {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors, .container-vs, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row {
@@ -4566,7 +4566,7 @@ textarea.form-control-lg {
           justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
-  .navbar > .container, .navbar > .block-views-blockteam-member-view-block-1.views-element-container, .navbar > #block-oursponsors,
+  .navbar > .container, .view-speaker-view .navbar > .view-content, .navbar > .block-views-blockteam-member-view-block-1.views-element-container, .navbar > #block-oursponsors,
   .navbar > .container-fluid, .navbar > .container-vs, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11272,10 +11272,7 @@ article.node ol:not([class]) {
     color: #33a1fd; }
 
 article.node img {
-  max-width: 100%;
-  height: auto;
-  padding-right: 20px;
-}
+  max-width: 100%; }
 
 article.node img[class*="image-style"] {
   height: auto;
@@ -11832,8 +11829,10 @@ article .node__links li {
 .path-forum .forum a {
   text-decoration: none; }
 
-.page-node-type-forum .forum .container, .page-node-type-forum .forum .block-views-blockteam-member-view-block-1.views-element-container, .page-node-type-forum .forum #block-oursponsors,
+.page-node-type-forum .forum .container, .page-node-type-forum .forum .view-speaker-view .view-content, .view-speaker-view .page-node-type-forum .forum .view-content, .page-node-type-forum .forum .block-views-blockteam-member-view-block-1.views-element-container, .page-node-type-forum .forum #block-oursponsors,
 .path-forum .forum .container,
+.path-forum .forum .view-speaker-view .view-content,
+.view-speaker-view .path-forum .forum .view-content,
 .path-forum .forum .block-views-blockteam-member-view-block-1.views-element-container,
 .path-forum .forum #block-oursponsors {
   background-color: #f8f9fa; }
@@ -13706,7 +13705,7 @@ ol.breadcrumb .breadcrumb-item {
     display: none; }
   .row {
     display: block; }
-  .container, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors {
+  .container, .view-speaker-view .view-content, .block-views-blockteam-member-view-block-1.views-element-container, #block-oursponsors {
     width: auto; }
   #comment-form {
     display: none; }
@@ -13842,9 +13841,8 @@ ol.breadcrumb .breadcrumb-item {
 .h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, #block-oursponsors article h2, h2, .h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, #block-oursponsors article h2 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 30px;
   letter-spacing: 1.5px;
   text-align: left; }
 
@@ -13922,6 +13920,29 @@ body {
 
 .no-side-padding.paragraph--type--text-paragraph {
   padding: 15px 0; }
+
+.field--name-field-column-one img {
+  max-width: 100%;
+  height: auto;
+  padding-right: 20px; }
+
+.field--name-field-column-two img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 20px; }
+
+.view-speaker-view {
+  margin-bottom: 50px; }
+  .view-speaker-view .views-col {
+    padding-right: 30px; }
+    .view-speaker-view .views-col img {
+      width: 100%;
+      height: 120px;
+      -o-object-fit: cover;
+         object-fit: cover; }
+    .view-speaker-view .views-col .field-content p {
+      padding-top: 10px;
+      height: 80px; }
 
 .paragraph--type--cta-paragraph {
   max-width: 100%;
@@ -14164,7 +14185,7 @@ form.webform-submission-form label {
   top: 25px;
   right: 20px; }
 
-.path-frontpage header nav .container .ml-md-0, .path-frontpage header nav .block-views-blockteam-member-view-block-1.views-element-container .ml-md-0, .path-frontpage header nav #block-oursponsors .ml-md-0 {
+.path-frontpage header nav .container .ml-md-0, .path-frontpage header nav .view-speaker-view .view-content .ml-md-0, .view-speaker-view .path-frontpage header nav .view-content .ml-md-0, .path-frontpage header nav .block-views-blockteam-member-view-block-1.views-element-container .ml-md-0, .path-frontpage header nav #block-oursponsors .ml-md-0 {
   display: none; }
 
 .path-frontpage .navbar-collapse #menu-main div nav ul {
@@ -14182,17 +14203,17 @@ form.webform-submission-form label {
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
-.solid header nav .container .ml-md-0, .solid header nav .block-views-blockteam-member-view-block-1.views-element-container .ml-md-0, .solid header nav #block-oursponsors .ml-md-0 {
+.solid header nav .container .ml-md-0, .solid header nav .view-speaker-view .view-content .ml-md-0, .view-speaker-view .solid header nav .view-content .ml-md-0, .solid header nav .block-views-blockteam-member-view-block-1.views-element-container .ml-md-0, .solid header nav #block-oursponsors .ml-md-0 {
   display: block; }
 
 #menu-main {
   width: 100%; }
   @media (min-width: 992px) {
-    #menu-main .container, #menu-main .block-views-blockteam-member-view-block-1.views-element-container, #menu-main #block-oursponsors {
+    #menu-main .container, #menu-main .view-speaker-view .view-content, .view-speaker-view #menu-main .view-content, #menu-main .block-views-blockteam-member-view-block-1.views-element-container, #menu-main #block-oursponsors {
       margin-left: 0; } }
 
 @media (max-width: 991.98px) {
-  nav .container, nav .block-views-blockteam-member-view-block-1.views-element-container, nav #block-oursponsors {
+  nav .container, nav .view-speaker-view .view-content, .view-speaker-view nav .view-content, nav .block-views-blockteam-member-view-block-1.views-element-container, nav #block-oursponsors {
     padding: 0; } }
 
 @media (max-width: 767.98px) {
@@ -14247,7 +14268,7 @@ form.webform-submission-form label {
 
 .path-frontpage .after {
   background-color: #f52c0c; }
-  .path-frontpage .after .container, .path-frontpage .after .block-views-blockteam-member-view-block-1.views-element-container, .path-frontpage .after #block-oursponsors {
+  .path-frontpage .after .container, .path-frontpage .after .view-speaker-view .view-content, .view-speaker-view .path-frontpage .after .view-content, .path-frontpage .after .block-views-blockteam-member-view-block-1.views-element-container, .path-frontpage .after #block-oursponsors {
     max-width: none; }
 
 .path-frontpage .region-content-after {

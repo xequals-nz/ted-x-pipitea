@@ -25,6 +25,11 @@
 	}
 }
 
+.view-speaker-view .view-content {
+	@extend .container;
+}
+
+
 .block-views-blockteam-member-view-block-1 {
 	&.views-element-container {
 		@extend .container;
