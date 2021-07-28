@@ -13985,7 +13985,8 @@ body {
   max-width: 320px;
   max-height: 170px;
   height: auto;
-  width: auto; }
+  width: auto;
+  margin: 15px; }
 
 .paragraph--type--cta-paragraph {
   max-width: 100%;
