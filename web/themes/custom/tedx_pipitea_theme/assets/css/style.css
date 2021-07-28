@@ -13981,6 +13981,12 @@ body {
           -ms-flex-direction: column;
               flex-direction: column; } }
 
+#block-oursponsors img {
+  max-width: 320px;
+  max-height: 170px;
+  height: auto;
+  width: auto; }
+
 .paragraph--type--cta-paragraph {
   max-width: 100%;
   background-color: #222222;
