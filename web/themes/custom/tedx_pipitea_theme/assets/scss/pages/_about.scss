@@ -25,9 +25,8 @@
 	}
 }
 
-.block-views-blockspeaker-view-block-1, .views_block__speaker_view_block_1 {
+.block-views-blockspeaker-view-block-1 {
 	@extend .container;
-	max-width: 100%;
 	h2 {
 		padding-bottom: 30px;
 		color: $ted-red;
