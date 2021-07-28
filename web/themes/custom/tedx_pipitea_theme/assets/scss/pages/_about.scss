@@ -25,8 +25,24 @@
 	}
 }
 
-.view-speaker-view .view-content {
+.block-views-blockspeaker-view-block-1 {
 	@extend .container;
+	max-width: 100%;
+	h2 {
+		padding-bottom: 30px;
+		color: $ted-red;
+	}
+	.view-content .views-row {
+		display: flex;
+		@include media-breakpoint-down(lg){
+			flex-basis: 25%;
+		}
+	}
+}
+
+#block-views-block-speaker-view-block-1-2 {
+	padding: 0;
+	max-width: 100%;
 }
 
 

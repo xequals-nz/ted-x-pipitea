@@ -147,7 +147,6 @@
   $(() => {
     const ctaimg = $('#block-savethedatectaimage p');
     const imageUrl = $('#block-savethedatectaimage img').attr('src');
-    ctaimg.css("background-style", "cover");
     ctaimg.css("background-image", "url(" + imageUrl + ")");
 
   });

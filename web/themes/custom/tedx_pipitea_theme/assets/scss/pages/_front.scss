@@ -28,6 +28,9 @@
 
 	#menu-main {
 		margin-left: 0;
+		.region-nav-main {
+			margin: 0 !important;
+		}
 	}
 
 	.dialog-off-canvas-main-canvas {
@@ -145,6 +148,7 @@
 		height: 500px;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 		@include media-breakpoint-up(lg) {
 			height: 400px;
 		}

@@ -49,14 +49,48 @@
 	margin-bottom: 50px;
 	.views-col {
 		padding-right: 30px;
+		.views-field-title {
+			text-transform: uppercase;
+			font-weight: bold;
+			text-decoration: none;
+		}
 		img {
 			width: 100%;
-			height: 120px;
+			height: 180px;
 			object-fit: cover;
+			margin-bottom: 70px;
 		}
 		.field-content p {
 			padding-top: 10px;
 			height: 80px;
+			text-overflow: ellipsis;
+			overflow: hidden;
 		}
+	}
+}
+
+//speaker individual page
+.node--type-speakers .node__meta {
+	display: none !important;
+}
+
+.field--type-image .field__label {
+	display: none;
+}
+
+.node--type-speakers .node__content {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: 30px;
+	.text-formatted {
+		flex-basis: 38%;
+	}
+	.field--type-image {
+		flex-basis: 60%;
+	}
+	@include media-breakpoint-down(md){
+
+		flex-direction: column;
 	}
 }
