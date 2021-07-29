@@ -194,9 +194,9 @@
 #block-socialmedialinks div {
 	display: flex;
 	margin-bottom: 20px;
-	p a img {
+	p a :first-child {
 		height: 30px;
-		width: auto;
+		width: auto !important;
 		padding-right: 10px;
 	}
 }

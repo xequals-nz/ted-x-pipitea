@@ -82,6 +82,10 @@ main {
 	.py-lg-5 {
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
+		@media (min-width: 992px) {
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+		}
 	}
 }
 
@@ -94,6 +98,9 @@ main {
 
 #page-footer-sub {
 	background-color: $white !important;
+	.container .row div:first-child {
+		width: 100% !important;
+	}
 	.col-xl-4 {
 		width: 100% !important;
 	}
@@ -101,7 +108,6 @@ main {
 		justify-content: left !important;
 	}
 }
-
 
 #block-independenttedxstatement-2, #block-tedx-pipitea-theme-account-menu {
 	p {
