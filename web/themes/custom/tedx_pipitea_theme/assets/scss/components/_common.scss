@@ -79,6 +79,10 @@ main {
 	box-shadow: none;
 	padding-top: 20px !important;
 	padding-bottom: 20px !important;
+	@media (min-width: 992px) {
+		padding-bottom: 5px !important;
+	}
+
 	.py-lg-5 {
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;

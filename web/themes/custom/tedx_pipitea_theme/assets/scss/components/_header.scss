@@ -12,9 +12,9 @@
 		}
 }
 
-.solid #header-menu img.logo {
+#header-menu img.logo {
 	@include media-breakpoint-down(vs){
-		margin-left: 20px;
+		margin-left: 0.75rem;
 	}
 }
 

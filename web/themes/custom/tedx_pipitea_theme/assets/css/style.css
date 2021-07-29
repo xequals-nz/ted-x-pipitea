@@ -14072,6 +14072,9 @@ main {
           box-shadow: none;
   padding-top: 20px !important;
   padding-bottom: 20px !important; }
+  @media (min-width: 992px) {
+    #page-footer {
+      padding-bottom: 5px !important; } }
   #page-footer .py-lg-5 {
     padding-top: 0 !important;
     padding-bottom: 0 !important; }
@@ -14215,8 +14218,8 @@ form.webform-submission-form label {
         width: 220px; } }
 
 @media (max-width: 443.98px) {
-  .solid #header-menu img.logo {
-    margin-left: 20px; } }
+  #header-menu img.logo {
+    margin-left: 0.75rem; } }
 
 #header-menu {
   -webkit-box-shadow: none;
