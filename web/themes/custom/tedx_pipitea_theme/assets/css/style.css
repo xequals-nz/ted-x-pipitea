@@ -14032,9 +14032,13 @@ body {
   #header-brand a.navbar-brand .d-md-none, #header-brand a.navbar-brand .sr-only, .d-md-none .d-md-none, .d-md-none .sr-only, .sr-only .d-md-none, .sr-only .sr-only {
     font-size: 0; }
 
-@media (min-width: 768px) {
-  #header-menu .nav.navbar-nav li.nav-item {
-    margin-right: 40px; } }
+#header-menu .nav.navbar-nav li.nav-item {
+  margin-left: 40px;
+  margin-right: 0; }
+  @media (max-width: 767.98px) {
+    #header-menu .nav.navbar-nav li.nav-item {
+      margin-right: 0;
+      margin-left: 0; } }
 
 #header-brand {
   display: none; }
@@ -14065,10 +14069,28 @@ main {
   background-color: #222222 !important;
   margin-top: 0 !important;
   -webkit-box-shadow: none;
-          box-shadow: none; }
+          box-shadow: none;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important; }
+  #page-footer .py-lg-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+
+#page-footer {
+  -webkit-box-shadow: 0 -4px 4px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 -4px 4px -2px rgba(0, 0, 0, 0.4); }
+
+#page-footer .region {
+  padding: 0 !important; }
 
 #page-footer-sub {
   background-color: #fff !important; }
+  #page-footer-sub .col-xl-4 {
+    width: 100% !important; }
+  #page-footer-sub .justify-content-center {
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important; }
 
 #block-independenttedxstatement-2 p, #block-tedx-pipitea-theme-account-menu p {
   color: #f52c0c; }
@@ -14271,6 +14293,10 @@ form.webform-submission-form label {
 @media (max-width: 767.98px) {
   .solid #header-menu #navigation-container {
     margin-top: 50px; } }
+
+.path-frontpage .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
+  margin-left: 0;
+  margin-right: 40px; }
 
 .solid .navbar-collapse #menu-main {
   margin-left: auto; }
@@ -14681,7 +14707,7 @@ form.webform-submission-form label {
     .view-id-blog_view .view-content .views-row {
       width: 48%; }
   .view-id-blog_view article.node .field--name-title {
-    min-height: 105px; } }
+    min-height: 70px; } }
 
 @media (min-width: 992px) {
   .view-id-blog_view .view-content .views-row {

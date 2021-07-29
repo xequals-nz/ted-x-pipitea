@@ -27,9 +27,12 @@
 }
 
 #header-menu .nav.navbar-nav li.nav-item {
-		@include media-breakpoint-up(md) {			
-			margin-right: 40px;
-		}
+	margin-left: 40px;
+	margin-right: 0;
+	@include media-breakpoint-down(md) {
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
 
 #header-brand {
@@ -74,11 +77,29 @@ main {
 	background-color: $ted-dark-grey !important;
 	margin-top: 0 !important;
 	box-shadow: none;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	.py-lg-5 {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
 }
+
+#page-footer {
+	-webkit-box-shadow: 0 -4px 4px -2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 -4px 4px -2px rgba(0, 0, 0, 0.4); }
+#page-footer .region {
+	padding: 0 !important; }
 
 
 #page-footer-sub {
 	background-color: $white !important;
+	.col-xl-4 {
+		width: 100% !important;
+	}
+	.justify-content-center {
+		justify-content: left !important;
+	}
 }
 
 
