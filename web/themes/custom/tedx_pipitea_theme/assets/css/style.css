@@ -14303,6 +14303,24 @@ form.webform-submission-form label {
 .path-frontpage .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
   margin-left: 0;
   margin-right: 40px; }
+  @media (max-width: 767.98px) {
+    .path-frontpage .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
+      margin-right: 0;
+      margin-left: 0; } }
+
+@media (min-width: 768px) {
+  .solid .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
+    margin-left: 40px !important;
+    margin-right: 0; } }
+
+@media (min-width: 768px) {
+  .path-frontpage .region-nav-main {
+    margin-left: 0 !important; } }
+
+@media (min-width: 768px) {
+  .solid #menu-main .region-nav-main {
+    margin-left: auto !important;
+    margin-right: 0 !important; } }
 
 .solid .navbar-collapse #menu-main {
   margin-left: auto; }
@@ -14321,8 +14339,6 @@ form.webform-submission-form label {
 
 .path-frontpage #menu-main {
   margin-left: 0; }
-  .path-frontpage #menu-main .region-nav-main {
-    margin: 0 !important; }
 
 .path-frontpage .dialog-off-canvas-main-canvas {
   background-image: url("/themes/custom/tedx_pipitea_theme/landing-page-header60.png");

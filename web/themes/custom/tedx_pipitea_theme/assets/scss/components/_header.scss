@@ -130,4 +130,28 @@ nav .container {
 .path-frontpage .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
 	margin-left: 0;
 	margin-right: 40px;
+	@include media-breakpoint-down(md){
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+.solid .sticky-top #block-tedx-pipitea-theme-main-menu .nav.navbar-nav li.nav-item {
+	@include media-breakpoint-up(md) {
+		margin-left: 40px !important;
+		margin-right: 0;
+	}
+}
+
+.path-frontpage .region-nav-main {
+	@include media-breakpoint-up(md) {
+		margin-left: 0 !important;
+	}
+}
+
+.solid #menu-main .region-nav-main {
+	@include media-breakpoint-up(md) {
+		margin-left: auto !important;
+		margin-right: 0 !important;
+	}
 }
