@@ -48,7 +48,14 @@
 .view-speaker-view {
 	margin-bottom: 50px;
 	.views-col {
-		padding-right: 30px;
+		flex-basis: 100%;
+
+		@include media-breakpoint-up(md){
+			flex-basis: 48%;
+		}
+		@include media-breakpoint-up(lg){
+			flex-basis: 22%;
+		}
 		.views-field-title {
 			text-transform: uppercase;
 			font-weight: bold;
@@ -56,17 +63,28 @@
 		}
 		img {
 			width: 100%;
-			height: 180px;
+			height: 380px;
 			object-fit: cover;
 			margin-bottom: 70px;
+			@include media-breakpoint-up(lg){
+				height: 180px;
+			}
 		}
 		.field-content p {
 			padding-top: 10px;
-			height: 80px;
 			text-overflow: ellipsis;
 			overflow: hidden;
+			@include media-breakpoint-up(md){
+				height: 80px;
+			}
 		}
 	}
+}
+
+.view-speaker-view .views-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 //speaker individual page
