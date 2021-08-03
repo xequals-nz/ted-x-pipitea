@@ -14614,11 +14614,12 @@ form.webform-submission-form label {
     margin-left: auto;
     margin-right: auto; }
 
-#block-views-block-team-member-view-block-1 .field--name-field-role {
-  display: none; }
-
-#block-views-block-team-member-view-block-1 .field--name-body {
-  display: none; }
+#block-views-block-team-member-view-block-1 {
+  margin-bottom: 60px; }
+  #block-views-block-team-member-view-block-1 .field--name-field-role {
+    display: none; }
+  #block-views-block-team-member-view-block-1 .field--name-body {
+    display: none; }
 
 .node--type-team-member .node__content {
   display: -webkit-box;
