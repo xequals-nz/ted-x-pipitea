@@ -14616,10 +14616,18 @@ form.webform-submission-form label {
 
 #block-views-block-team-member-view-block-1 {
   margin-bottom: 60px; }
+  #block-views-block-team-member-view-block-1 h2, #block-views-block-team-member-view-block-1 .h2, #block-views-block-team-member-view-block-1 #block-oursponsors article h2, #block-oursponsors article #block-views-block-team-member-view-block-1 h2 {
+    padding-bottom: 0; }
   #block-views-block-team-member-view-block-1 .field--name-field-role {
     display: none; }
   #block-views-block-team-member-view-block-1 .field--name-body {
     display: none; }
+  @media (max-width: 991.98px) {
+    #block-views-block-team-member-view-block-1 a {
+      padding-left: 20px; } }
+  @media (max-width: 767.98px) {
+    #block-views-block-team-member-view-block-1 a {
+      padding-left: 0; } }
 
 .node--type-team-member .node__content {
   display: -webkit-box;
