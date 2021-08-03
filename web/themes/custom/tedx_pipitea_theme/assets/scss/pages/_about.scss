@@ -119,3 +119,37 @@
 		}
 	}
 }
+
+#block-views-block-team-member-view-block-1 {
+	.field--name-field-role {
+		display: none;
+	}
+	.field--name-body {
+		display: none;
+	}
+}
+
+//team member
+
+.node--type-team-member .node__content {
+	display: flex;
+	flex-wrap: wrap;
+	@include media-breakpoint-up(md) {
+		flex-wrap: nowrap;
+	}
+	.field--type-image {
+		flex-basis: 100%;
+		img {
+			width: 100%;
+		}
+		@include media-breakpoint-up(lg) {
+			//flex-basis: 50%;
+		}
+	}
+	.field--name-body {
+		margin: 30px 0;
+		@include media-breakpoint-up(md) {
+			margin: 0 30px;
+		}
+	}
+}

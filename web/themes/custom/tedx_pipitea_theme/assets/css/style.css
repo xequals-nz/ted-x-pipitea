@@ -14614,6 +14614,33 @@ form.webform-submission-form label {
     margin-left: auto;
     margin-right: auto; }
 
+#block-views-block-team-member-view-block-1 .field--name-field-role {
+  display: none; }
+
+#block-views-block-team-member-view-block-1 .field--name-body {
+  display: none; }
+
+.node--type-team-member .node__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .node--type-team-member .node__content {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
+  .node--type-team-member .node__content .field--type-image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+    .node--type-team-member .node__content .field--type-image img {
+      width: 100%; }
+  .node--type-team-member .node__content .field--name-body {
+    margin: 30px 0; }
+    @media (min-width: 768px) {
+      .node--type-team-member .node__content .field--name-body {
+        margin: 0 30px; } }
+
 .contact .node__content {
   display: -webkit-box;
   display: -ms-flexbox;
