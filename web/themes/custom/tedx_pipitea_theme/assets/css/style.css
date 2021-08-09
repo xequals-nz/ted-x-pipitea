@@ -14317,12 +14317,12 @@ form.webform-submission-form label {
 .solid .navbar-collapse #menu-main {
   margin-left: auto; }
 
-.after {
+.path-frontpage .after {
   background-color: #f52c0c; }
-  .after .container, .after .block-views-blockspeaker-view-block-1, .after .block-views-blockteam-member-view-block-1.views-element-container, .after #block-oursponsors {
+  .path-frontpage .after .container, .path-frontpage .after .block-views-blockspeaker-view-block-1, .path-frontpage .after .block-views-blockteam-member-view-block-1.views-element-container, .path-frontpage .after #block-oursponsors {
     max-width: none; }
 
-.region-content-after {
+.path-frontpage .region-content-after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14331,14 +14331,14 @@ form.webform-submission-form label {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media (min-width: 768px) {
-    .region-content-after {
+    .path-frontpage .region-content-after {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
       height: 500px; } }
   @media (min-width: 992px) {
-    .region-content-after {
+    .path-frontpage .region-content-after {
       height: 400px; } }
 
 #block-savethedatecta {
