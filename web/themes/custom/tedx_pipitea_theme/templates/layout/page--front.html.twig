@@ -46,6 +46,19 @@
 {% include '@bootstrap_for_drupal/includes/header.html.twig' %}
 <!-- HEADER-->
 
+<section class="before">
+  <div class="container">
+    <div class="row">
+            <!-- CONTENT AFTER -->
+          {% if page.content_before %}
+            <aside  id="content-after">
+              {{ page.content_before }}
+            </aside>
+          {% endif %}
+      </div>
+  </div>
+</section>
+
 <!-- MAIN -->
 <main role="main " class="d-print-block">
   <a id="main-content" tabindex="-1"></a>
@@ -59,14 +72,6 @@
           <!-- If no sidebar_left content take full width -->
 
           <div class="{{ content_classes }} col-print-12">
-
-          <!-- CONTENT BEFORE -->
-          {% if page.content_before %}
-            <aside class="mt-2 mt-md-3" id="content-before">
-              {{ page.content_before }}
-            </aside>
-          {% endif %}
-          <!-- CONTENT BEFORE -->
 
           <!-- MAIN CONTENT -->
           <section class="py-2 py-md-3" id="page-content">

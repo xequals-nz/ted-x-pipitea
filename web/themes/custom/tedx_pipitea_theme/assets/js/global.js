@@ -123,24 +123,24 @@
   });
 
   // //////////////////////////////////////////////////////////////////////////////
-  // [ HIDE / SHOW IMAGE LOGO ON SCROOL ]
-  $(() => {
-    const logo = $('#header-menu .navbar-brand');
-    $(window).scroll(() => {
-      const scroll = $(window).scrollTop();
-
-      if (scroll >= 85) {
-        if (!logo.hasClass('show-logo')) {
-          logo.removeClass('hide-logo').addClass('show-logo');
-          $('body').addClass('solid');
-        }
-      }
-      else if (!logo.hasClass('hide-logo')) {
-        logo.removeClass('show-logo').addClass('hide-logo');
-        $('body').removeClass('solid');
-      }
-    });
-  });
+  // [ HIDE / SHOW IMAGE LOGO ON SCROLL ]
+  // $(() => {
+  //   const logo = $('#header-menu .navbar-brand');
+  //   $(window).scroll(() => {
+  //     const scroll = $(window).scrollTop();
+  //
+  //     if (scroll >= 85) {
+  //       if (!logo.hasClass('show-logo')) {
+  //         logo.removeClass('hide-logo').addClass('show-logo');
+  //         $('body').addClass('solid');
+  //       }
+  //     }
+  //     else if (!logo.hasClass('hide-logo')) {
+  //       logo.removeClass('show-logo').addClass('hide-logo');
+  //       $('body').removeClass('solid');
+  //     }
+  //   });
+  // });
 
   // //////////////////////////////////////////////////////////////////////////////
   // [ BACKGROUND IMAGE FOR CTA FRONT PAGE ]

@@ -6,62 +6,64 @@
 	}
 }
 
-.path-frontpage {
-	#header-brand {
-		display: block;
-	}
+//.path-frontpage {
+//	#header-brand {
+//		display: block;
+//	}
+//
+//	#header-menu {
+//		.hide-logo {
+//    		display: none;
+//   		 }
+//	}
+//
+//	&.solid {
+//		#header-brand, #header-menu {
+//			background-color: $ted-black !important;
+//		}
+//	}
+//	#header-brand, #header-menu {
+//		background-color: transparent !important;
+//	}
+//
+//	#menu-main {
+//		margin-left: 0;
+//		.region-nav-main {
+//			//margin: 0 !important;
+//		}
+//	}
 
-	#header-menu {
-		.hide-logo {
-    		display: none;
-   		 }
-	}
+	// striped image top corner
 
-	&.solid {
-		#header-brand, #header-menu {
-			background-color: $ted-black !important;
-		}
-	}
-	#header-brand, #header-menu {
-		background-color: transparent !important;
-	}
+	//.dialog-off-canvas-main-canvas {
+	//	background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header60.png');
+	//	//background-position-y: -15%;
+	//	background-color: rgba(0,0,0,0.25);
+	//	background-position-x: right;
+	//	background-repeat: no-repeat;
+	//	@include media-breakpoint-up(md) {
+	//		background-position-y: -10%;
+	//		background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header.png');
+	//	}
+	//	@include media-breakpoint-up(lg) {
+	//		//background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header.png');
+	//	}
+	//	@include media-breakpoint-up(xl) {
+	//		background-position-y: top;
+	//	}
+	//}
 
-	#menu-main {
-		margin-left: 0;
-		.region-nav-main {
-			//margin: 0 !important;
-		}
-	}
-
-	.dialog-off-canvas-main-canvas {
-		background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header60.png');
-		//background-position-y: -15%;
-		background-color: rgba(0,0,0,0.25);
-		background-position-x: right;
-		background-repeat: no-repeat;
-		@include media-breakpoint-up(md) {
-			background-position-y: -10%;
-			background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header.png');
-		}
-		@include media-breakpoint-up(lg) {
-			//background-image: url('/themes/custom/tedx_pipitea_theme/landing-page-header.png');
-		}
-		@include media-breakpoint-up(xl) {
-			background-position-y: top;
-		}
-	}
-
-	.page-title {
-		font-weight: bold;
-		text-transform: none;
-		@include media-breakpoint-up(md) {			
-			font-size: 90px;
-		}
-	}
-
-
+//	.page-title {
+//		font-weight: bold;
+//		text-transform: none;
+//		@include media-breakpoint-up(md) {
+//			font-size: 90px;
+//		}
+//	}
+//
+//
 	.after {
-		background-color: $ted-red; 
+		background-color: $ted-red;
 		.container {
 			max-width: none;
 		}
@@ -78,7 +80,6 @@
 			height: 400px;
 		}
 	}
-}
 
 
 
@@ -189,6 +190,10 @@
 	}
 }
 
+.path-frontpage #header-brand {
+	display: none;
+}
+
 //footer
 
 #block-socialmedialinks div {
@@ -200,3 +205,60 @@
 		padding-right: 10px;
 	}
 }
+
+//new designs
+
+.paragraph--type--banner-image {
+	position: relative;
+	margin-bottom: 50px;
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+}
+
+.field--name-field-banner-text-left {
+	position: absolute;
+	bottom: 160px;
+	width: 50%;
+	margin-left: 30px;
+	color: white;
+	text-align: left !important;
+	line-height: 30px;
+	font-size: 20px;
+	@include media-breakpoint-down(lg) {
+		line-height: 22px;
+		font-size: 15px;
+		bottom: 120px;
+	}
+	@include media-breakpoint-down(md) {
+		line-height: 18px;
+		font-size: 12px;
+		bottom: 70px;
+	}
+	.field__label {
+		display: none;
+	}
+}
+
+.path-frontpage .before {
+	background-color: white;
+}
+
+#block-bannerblock {
+	max-width: 1440px;
+	background: white;
+	overflow-x: hidden;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.path-frontpage h1 {
+	text-transform: capitalize;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+
+
