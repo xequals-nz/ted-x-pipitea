@@ -57,8 +57,16 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
-			.views-row{
-				@include media-breakpoint-down(lg){
+			&::after { //if two people at end of team members, allow this
+				content: '';
+				flex: auto;
+				max-width: 320px;
+				@include media-breakpoint-down(xl){
+					max-width: 250px;
+				}
+			}
+			.views-row {
+				@include media-breakpoint-down(lg) {
 					flex-basis: 100%;
 					article {
 						display: flex;
@@ -123,6 +131,9 @@
 #block-views-block-team-member-view-block-1 {
 	h2 {
 		padding-bottom: 0;
+		min-height: 80px;
+		display: flex;
+		align-items: flex-end;
 	}
 	.field--name-field-role {
 		display: none;
