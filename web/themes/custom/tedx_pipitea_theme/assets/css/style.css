@@ -14599,7 +14599,10 @@ form.webform-submission-form label {
       flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   #block-oursponsors .field--name-body p {
     margin-left: auto;
     margin-right: auto; }
