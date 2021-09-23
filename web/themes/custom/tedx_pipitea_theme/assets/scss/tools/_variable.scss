@@ -138,8 +138,24 @@ $body-bg: $white;
 $body-color: $gray;
 
 // FONT
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+@font-face {
+  font-family: "Sofia Light";
+  src: url("../font/light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sofia Regular";
+  src: url("../font/regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sofia Bold";
+  src: url("../font/bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sofia Medium";
+  src: url("../font/medium.otf") format("opentype");
+}
+$font-family-sans-serif: "Sofia Light";
+$font-family-monospace: "Sofia Light";
 $font-family-base: $font-family-sans-serif;
 $enable-responsive-font-sizes: true;
 $font-size-base: 1rem;
@@ -153,7 +169,7 @@ $line-height-base: 1.35;
 $font-weight-lighter: lighter;
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 800;
 $font-weight-bolder: bolder;
 $font-weight-base: $font-weight-light;
 $text-muted: $gray-600;
