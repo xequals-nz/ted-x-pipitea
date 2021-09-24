@@ -121,8 +121,19 @@
 	margin: 15px;
 }
 
+#block-oursponsors {
+	p {
+		color: $ted-black;
+	}
+}
+
 //events
 
 .event-page .after {
 	background-color: white;
+}
+
+#block-eventpageblock img {
+	width: 100%;
+	height: auto;
 }

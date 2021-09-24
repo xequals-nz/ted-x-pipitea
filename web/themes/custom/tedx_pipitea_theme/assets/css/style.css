@@ -11010,7 +11010,7 @@ textarea.form-control-lg {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 8px;
+  padding: 8px 8px 4px 8px;
   font-size: 14px;
   letter-spacing: 1px;
   text-decoration: none; }
@@ -14028,8 +14028,15 @@ body {
   width: auto;
   margin: 15px; }
 
+#block-oursponsors p {
+  color: #111111; }
+
 .event-page .after {
   background-color: white; }
+
+#block-eventpageblock img {
+  width: 100%;
+  height: auto; }
 
 .paragraph--type--cta-paragraph {
   max-width: 100%;
@@ -14534,18 +14541,19 @@ form.webform-submission-form label {
 .about .node__content {
   max-width: 720px; }
 
-.block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 .h2, .block-views-blockspeaker-view-block-1 .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 #block-oursponsors article h2, #block-oursponsors article .block-views-blockspeaker-view-block-1 h2 {
-  padding-bottom: 30px;
-  color: #f52c0c; }
-
-.block-views-blockspeaker-view-block-1 .view-content .views-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  @media (max-width: 991.98px) {
-    .block-views-blockspeaker-view-block-1 .view-content .views-row {
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%; } }
+.block-views-blockspeaker-view-block-1 {
+  padding: 0; }
+  .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 .h2, .block-views-blockspeaker-view-block-1 .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 #block-oursponsors article h2, #block-oursponsors article .block-views-blockspeaker-view-block-1 h2 {
+    padding-bottom: 30px;
+    color: #f52c0c; }
+  .block-views-blockspeaker-view-block-1 .view-content .views-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 991.98px) {
+      .block-views-blockspeaker-view-block-1 .view-content .views-row {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
 
 #block-views-block-speaker-view-block-1-2 {
   padding: 0;
@@ -14610,6 +14618,15 @@ form.webform-submission-form label {
     .block-views-blockteam-member-view-block-1 .view-team-member-view article {
       max-width: 250px; } }
 
+#block-oursponsors h2, #block-oursponsors .h2, #block-oursponsors article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin-top: 30px; }
+
+#block-oursponsors :nth-child(2) {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+
 #block-oursponsors .field--name-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14621,7 +14638,8 @@ form.webform-submission-form label {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding-bottom: 40px; }
   #block-oursponsors .field--name-body p {
     margin-left: auto;
     margin-right: auto; }
