@@ -13864,12 +13864,14 @@ ol.breadcrumb .breadcrumb-item {
 .h3, h3, .h3 {
   font-style: sans-serif;
   font-style: bold;
+  font-family: "Sofia Bold";
   font-size: 20px;
   text-align: left; }
 
 .h4, h4, .h4 {
   font-style: sans-serif;
   font-style: bold;
+  font-family: "Sofia Regular";
   font-size: 16px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -13878,6 +13880,7 @@ ol.breadcrumb .breadcrumb-item {
 .h5, h5, .h5 {
   font-style: sans-serif;
   font-style: bold;
+  font-family: "Sofia Medium";
   font-size: 14px;
   text-align: left; }
 
@@ -13896,7 +13899,7 @@ p a, a {
 
 .page-title {
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Sofia Bold";
   letter-spacing: 2px;
   margin: 15px 0; }
 
@@ -13920,7 +13923,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 35px;
-    font-weight: bold; }
+    font-family: "Sofia Bold"; }
   .red-with-arrow p {
     color: #fff; }
   .red-with-arrow a {
@@ -13932,6 +13935,9 @@ body {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid red; }
+
+p strong {
+  font-family: "Sofia Bold"; }
 
 .no-side-padding.paragraph--type--text-paragraph {
   padding: 15px 0; }
@@ -14046,10 +14052,10 @@ body {
   .paragraph--type--cta-paragraph h2, .paragraph--type--cta-paragraph .h2, .paragraph--type--cta-paragraph .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .paragraph--type--cta-paragraph h2, .paragraph--type--cta-paragraph #block-oursponsors article h2, #block-oursponsors article .paragraph--type--cta-paragraph h2 {
     color: #f52c0c;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: "Sofia Bold";
     font-size: 14px; }
   .paragraph--type--cta-paragraph h3, .paragraph--type--cta-paragraph .h3 {
-    font-weight: bold;
+    font-family: "Sofia Medium";
     color: #fff; }
   .paragraph--type--cta-paragraph p {
     padding: 15px 0; }
@@ -14725,7 +14731,7 @@ form.webform-submission-form label {
 
 .page-node-type-blog .field--name-field-section-title {
   color: #f52c0c;
-  font-weight: bold; }
+  font-family: "Sofia Bold"; }
 
 .page-node-type-blog #header-menu {
   background-color: #111111 !important; }
@@ -14750,7 +14756,7 @@ form.webform-submission-form label {
   width: 100%;
   text-align: center;
   display: inline-block;
-  font-weight: bold;
+  font-family: "Sofia Bold";
   color: #000;
   margin: 10px 0; }
   .page-node-type-blog article .node__meta .node__submitted {
@@ -14789,7 +14795,7 @@ form.webform-submission-form label {
     width: 100%; }
 
 .view-id-blog_view article.node .field--name-title {
-  font-weight: bold;
+  font-family: "Sofia Medium";
   display: inline-block; }
 
 .view-id-blog_view article.node .node-readmore {

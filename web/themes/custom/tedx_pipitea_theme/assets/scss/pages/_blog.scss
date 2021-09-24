@@ -4,7 +4,7 @@
 	}
 	.field--name-field-section-title {
 		color: $ted-red;
-		font-weight: bold;
+		font-family: "Sofia Bold";
 	}	
 	#header-menu {
 		background-color: #111111 !important;
@@ -30,7 +30,7 @@
 			width: 100%;
 			text-align: center;
 			display: inline-block;
-			font-weight: bold;
+			font-family: "Sofia Bold";
 			color: $black;
 			margin: 10px 0;
 		    .node__submitted {
