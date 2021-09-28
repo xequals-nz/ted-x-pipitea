@@ -85,6 +85,21 @@ p strong {
 				height: 80px;
 			}
 		}
+		h2 a {
+			:hover {
+				text-decoration: underline !important;
+			}
+			span {
+				color: white;
+				font-size: 18px;
+			}
+		}
+		.field--name-body {
+			color: white;
+			margin-bottom: 5px;
+			font-family: "Sofia Light";
+			font-size: 14px;
+		}
 	}
 }
 
@@ -115,11 +130,32 @@ p strong {
 	display: none;
 }
 
+#block-views-block-speaker-view-block-1 {
+	max-width: 100%;
+}
+
 .node--type-speakers .node__content {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	margin-top: 30px;
+	.text-formatted {
+		flex-basis: 38%;
+	}
+	.field--type-image {
+		flex-basis: 60%;
+	}
+	@include media-breakpoint-down(md){
+
+		flex-direction: column;
+	}
+}
+
+.event-page .node--type-speakers .node__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 0;
 	.text-formatted {
 		flex-basis: 38%;
 	}

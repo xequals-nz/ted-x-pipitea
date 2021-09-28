@@ -13988,6 +13988,16 @@ p strong {
       @media (min-width: 768px) {
         .view-speaker-view .views-col .field-content p {
           height: 80px; } }
+    .view-speaker-view .views-col h2 a :hover, .view-speaker-view .views-col .h2 a :hover, .view-speaker-view .views-col #block-oursponsors article h2 a :hover, #block-oursponsors article .view-speaker-view .views-col h2 a :hover {
+      text-decoration: underline !important; }
+    .view-speaker-view .views-col h2 a span, .view-speaker-view .views-col .h2 a span, .view-speaker-view .views-col #block-oursponsors article h2 a span, #block-oursponsors article .view-speaker-view .views-col h2 a span {
+      color: white;
+      font-size: 18px; }
+    .view-speaker-view .views-col .field--name-body {
+      color: white;
+      margin-bottom: 5px;
+      font-family: "Sofia Light";
+      font-size: 14px; }
 
 .view-speaker-view .views-row {
   display: -webkit-box;
@@ -14014,6 +14024,9 @@ p strong {
 .field--type-image .field__label {
   display: none; }
 
+#block-views-block-speaker-view-block-1 {
+  max-width: 100%; }
+
 .node--type-speakers .node__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14034,6 +14047,31 @@ p strong {
         flex-basis: 60%; }
   @media (max-width: 767.98px) {
     .node--type-speakers .node__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+.event-page .node--type-speakers .node__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0; }
+  .event-page .node--type-speakers .node__content .text-formatted {
+    -ms-flex-preferred-size: 38%;
+        flex-basis: 38%; }
+  .event-page .node--type-speakers .node__content .field--type-image {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%; }
+  @media (max-width: 767.98px) {
+    .event-page .node--type-speakers .node__content {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -14562,7 +14600,7 @@ form.webform-submission-form label {
 .block-views-blockspeaker-view-block-1 {
   padding: 0; }
   .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 .h2, .block-views-blockspeaker-view-block-1 .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 #block-oursponsors article h2, #block-oursponsors article .block-views-blockspeaker-view-block-1 h2 {
-    padding-bottom: 30px;
+    height: 50px;
     color: #f52c0c;
     font-family: "Sofia Medium"; }
   .block-views-blockspeaker-view-block-1 .view-content .views-row {
