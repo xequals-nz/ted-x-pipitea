@@ -13957,7 +13957,7 @@ p strong {
   .view-speaker-view .views-col {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       .view-speaker-view .views-col {
         -ms-flex-preferred-size: 48%;
             flex-basis: 48%; } }
@@ -13968,16 +13968,19 @@ p strong {
     .view-speaker-view .views-col .views-field-title {
       text-transform: uppercase;
       font-weight: bold;
-      text-decoration: none; }
+      min-height: 50px;
+      text-align: center; }
+      .view-speaker-view .views-col .views-field-title a {
+        text-decoration: none; }
     .view-speaker-view .views-col img {
       width: 100%;
-      height: 380px;
+      height: 440px;
       -o-object-fit: cover;
          object-fit: cover;
       margin-bottom: 70px; }
       @media (min-width: 992px) {
         .view-speaker-view .views-col img {
-          height: 180px; } }
+          height: 280px; } }
     .view-speaker-view .views-col .field-content p {
       padding-top: 10px;
       text-overflow: ellipsis;
@@ -13995,6 +13998,15 @@ p strong {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+@media (min-width: 992px) {
+  .view-speaker-view .views-row:last-child {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; } }
+
+.view-speaker-view .views-row::after {
+  display: none !important; }
 
 .node--type-speakers .node__meta {
   display: none !important; }
@@ -14031,7 +14043,7 @@ p strong {
   max-width: 320px;
   max-height: 170px;
   height: auto;
-  width: auto;
+  width: 90%;
   margin: 15px; }
 
 #block-oursponsors p {
@@ -14551,7 +14563,8 @@ form.webform-submission-form label {
   padding: 0; }
   .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 .h2, .block-views-blockspeaker-view-block-1 .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .block-views-blockspeaker-view-block-1 h2, .block-views-blockspeaker-view-block-1 #block-oursponsors article h2, #block-oursponsors article .block-views-blockspeaker-view-block-1 h2 {
     padding-bottom: 30px;
-    color: #f52c0c; }
+    color: #f52c0c;
+    font-family: "Sofia Medium"; }
   .block-views-blockspeaker-view-block-1 .view-content .views-row {
     display: -webkit-box;
     display: -ms-flexbox;
