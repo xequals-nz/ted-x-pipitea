@@ -14009,12 +14009,6 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (min-width: 992px) {
-  .view-speaker-view .views-row:last-child {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly; } }
-
 .view-speaker-view .views-row::after {
   display: none !important; }
 
