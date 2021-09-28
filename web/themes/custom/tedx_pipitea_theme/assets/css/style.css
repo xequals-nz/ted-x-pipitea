@@ -14021,7 +14021,7 @@ p strong {
 #block-views-block-speaker-view-block-1 {
   max-width: 100%; }
 
-.node--type-speakers .node__content {
+.page-node-type-speakers .node--type-speakers .node__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14033,20 +14033,23 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 30px; }
-  .node--type-speakers .node__content .text-formatted {
-    -ms-flex-preferred-size: 38%;
-        flex-basis: 38%; }
-  .node--type-speakers .node__content .field--type-image {
-    -ms-flex-preferred-size: 60%;
-        flex-basis: 60%; }
+  .page-node-type-speakers .node--type-speakers .node__content .text-formatted {
+    -ms-flex-preferred-size: 58%;
+        flex-basis: 58%; }
+  .page-node-type-speakers .node--type-speakers .node__content .field--type-image {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
+    .page-node-type-speakers .node--type-speakers .node__content .field--type-image img {
+      width: 100%;
+      height: auto; }
   @media (max-width: 767.98px) {
-    .node--type-speakers .node__content {
+    .page-node-type-speakers .node--type-speakers .node__content {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; } }
 
-.event-page .node--type-speakers .node__content {
+.node--view-mode-teaser .node__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14058,14 +14061,14 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 0; }
-  .event-page .node--type-speakers .node__content .text-formatted {
+  .node--view-mode-teaser .node__content .text-formatted {
     -ms-flex-preferred-size: 38%;
         flex-basis: 38%; }
-  .event-page .node--type-speakers .node__content .field--type-image {
+  .node--view-mode-teaser .node__content .field--type-image {
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%; }
   @media (max-width: 767.98px) {
-    .event-page .node--type-speakers .node__content {
+    .node--view-mode-teaser .node__content {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -14087,6 +14090,13 @@ p strong {
 #block-eventpageblock img {
   width: 100%;
   height: auto; }
+
+.freebirdFormviewerViewCenteredContent {
+  margin-left: 0 !important;
+  margin-right: auto !important; }
+
+.event-page iframe {
+  width: 1200px; }
 
 .paragraph--type--cta-paragraph {
   max-width: 100%;

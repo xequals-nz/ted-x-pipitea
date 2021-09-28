@@ -126,23 +126,27 @@ p strong {
 	max-width: 100%;
 }
 
-.node--type-speakers .node__content {
+.page-node-type-speakers .node--type-speakers .node__content {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	margin-top: 30px;
 	.text-formatted {
-		flex-basis: 38%;
+		flex-basis: 58%;
 	}
 	.field--type-image {
-		flex-basis: 60%;
+		flex-basis: 40%;
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
 	@include media-breakpoint-down(md){
 		flex-direction: column;
 	}
 }
 
-.event-page .node--type-speakers .node__content {
+.node--view-mode-teaser .node__content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -182,4 +186,15 @@ p strong {
 #block-eventpageblock img {
 	width: 100%;
 	height: auto;
+}
+
+//iframe
+
+.freebirdFormviewerViewCenteredContent {
+	margin-left: 0 !important;
+	margin-right: auto !important;
+}
+
+.event-page iframe {
+	width: 1200px;
 }
