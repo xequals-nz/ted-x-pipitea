@@ -183,6 +183,13 @@ p strong {
 	background-color: white;
 }
 
+.event-page h2 a {
+	color: red;
+	:hover {
+		color: yellow;
+	}
+}
+
 #block-eventpageblock img {
 	width: 100%;
 	height: auto;
