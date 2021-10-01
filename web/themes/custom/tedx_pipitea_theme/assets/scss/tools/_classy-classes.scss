@@ -113,6 +113,17 @@ p strong {
 	display: none !important;
 }
 
+//2 column
+
+.paragraph--type--two-column-text {
+	justify-content: space-between;
+	.field--type-text-long {
+		@include media-breakpoint-up(md) {
+			flex-basis: 48% !important;
+		}
+	}
+}
+
 //speaker individual page
 .node--type-speakers .node__meta {
 	display: none !important;
@@ -184,7 +195,7 @@ p strong {
 }
 
 .event-page h2 a {
-	color: red;
+	color: $ted-red;
 	:hover {
 		color: yellow;
 	}

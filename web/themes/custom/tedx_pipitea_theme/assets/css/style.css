@@ -14012,6 +14012,15 @@ p strong {
 .view-speaker-view .views-row::after {
   display: none !important; }
 
+.paragraph--type--two-column-text {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (min-width: 768px) {
+    .paragraph--type--two-column-text .field--type-text-long {
+      -ms-flex-preferred-size: 48% !important;
+          flex-basis: 48% !important; } }
+
 .node--type-speakers .node__meta {
   display: none !important; }
 
@@ -14086,6 +14095,11 @@ p strong {
 
 .event-page .after {
   background-color: white; }
+
+.event-page h2 a, .event-page .h2 a, .event-page .block-views-blockteam-member-view-block-1 .view-team-member-view article h2 a, .block-views-blockteam-member-view-block-1 .view-team-member-view article .event-page h2 a, .event-page #block-oursponsors article h2 a, #block-oursponsors article .event-page h2 a {
+  color: #f52c0c; }
+  .event-page h2 a :hover, .event-page .h2 a :hover, .event-page #block-oursponsors article h2 a :hover, #block-oursponsors article .event-page h2 a :hover {
+    color: yellow; }
 
 #block-eventpageblock img {
   width: 100%;
