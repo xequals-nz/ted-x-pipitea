@@ -190,11 +190,8 @@ p strong {
 
 //iframe
 
-.freebirdFormviewerViewCenteredContent {
-	margin-left: 0 !important;
-	margin-right: auto !important;
-}
-
-.event-page iframe {
-	width: 1200px;
+iframe {
+	background-color: #EEEEEE;
+	border-radius: 20px;
+	padding: 20px 0;
 }
