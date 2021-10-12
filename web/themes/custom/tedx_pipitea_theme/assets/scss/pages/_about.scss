@@ -61,14 +61,14 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
-			&::after { //if two people at end of team members, allow this
-				content: '';
-				flex: auto;
-				max-width: 320px;
-				@include media-breakpoint-down(xl){
-					max-width: 250px;
-				}
-			}
+			//&::after { //if two people at end of team members, allow this
+			//	content: '';
+			//	flex: auto;
+			//	max-width: 320px;
+			//	@include media-breakpoint-down(xl){
+			//		max-width: 250px;
+			//	}
+			//}
 			.views-row {
 				@include media-breakpoint-down(lg) {
 					flex-basis: 100%;
