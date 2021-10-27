@@ -13,8 +13,8 @@ _core:
   default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
 id: tedx_pipitea_theme_account_menu
 theme: tedx_pipitea_theme
-region: footer_center
-weight: -7
+region: footer_right
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:

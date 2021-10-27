@@ -1,23 +1,23 @@
-uuid: 97793d96-3c5f-4e82-977a-a20d69a1d0ef
+uuid: 42859787-9951-4afa-a0f4-baaec3abfdb8
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:49534829-7b9e-4b51-b144-7045639902f5'
+    - 'block_content:basic:63dc3666-8b00-45a0-9e0d-c867f6b0497b'
   module:
     - block_content
     - system
   theme:
     - tedx_pipitea_theme
-id: savethedatectaimage
+id: bannerblock
 theme: tedx_pipitea_theme
-region: content_after
-weight: -10
+region: content_before
+weight: 0
 provider: null
-plugin: 'block_content:49534829-7b9e-4b51-b144-7045639902f5'
+plugin: 'block_content:63dc3666-8b00-45a0-9e0d-c867f6b0497b'
 settings:
-  id: 'block_content:49534829-7b9e-4b51-b144-7045639902f5'
-  label: 'Save the date CTA image'
+  id: 'block_content:63dc3666-8b00-45a0-9e0d-c867f6b0497b'
+  label: 'Banner Block'
   provider: block_content
   label_display: '0'
   status: true

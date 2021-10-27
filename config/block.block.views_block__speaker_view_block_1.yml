@@ -1,0 +1,29 @@
+uuid: 9858c184-cc16-4023-949b-0a632f80c541
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.speaker_view
+  module:
+    - system
+    - views
+  theme:
+    - tedx_pipitea_theme
+id: views_block__speaker_view_block_1
+theme: tedx_pipitea_theme
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:speaker_view-block_1'
+settings:
+  id: 'views_block:speaker_view-block_1'
+  label: 'Get to know our speakers'
+  provider: views
+  label_display: visible
+  views_label: 'Get to know our speakers'
+  items_per_page: '20'
+visibility:
+  request_path:
+    id: request_path
+    pages: /event
+    negate: false

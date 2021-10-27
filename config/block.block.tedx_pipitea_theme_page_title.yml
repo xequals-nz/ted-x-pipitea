@@ -11,7 +11,7 @@ _core:
 id: tedx_pipitea_theme_page_title
 theme: tedx_pipitea_theme
 region: content
-weight: -50
+weight: -11
 provider: null
 plugin: page_title_block
 settings:

@@ -1,23 +1,23 @@
-uuid: 48061683-c465-46ea-9c61-5145ff54513f
+uuid: bd016c35-87cf-4afd-98a7-58f034ce29f4
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:1d52af33-cf72-4117-b538-0963d648f022'
+    - 'block_content:basic:16423b79-ae4f-4903-86cb-3ef057244757'
   module:
     - block_content
     - system
   theme:
     - tedx_pipitea_theme
-id: savethedatecta
+id: eventpageblock
 theme: tedx_pipitea_theme
-region: content_after
-weight: -11
+region: content_before
+weight: 0
 provider: null
-plugin: 'block_content:1d52af33-cf72-4117-b538-0963d648f022'
+plugin: 'block_content:16423b79-ae4f-4903-86cb-3ef057244757'
 settings:
-  id: 'block_content:1d52af33-cf72-4117-b538-0963d648f022'
-  label: 'Save the date CTA'
+  id: 'block_content:16423b79-ae4f-4903-86cb-3ef057244757'
+  label: 'Event Page Block'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,5 +26,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /event
     negate: false

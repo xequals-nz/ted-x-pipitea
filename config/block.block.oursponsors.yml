@@ -12,19 +12,19 @@ dependencies:
 id: oursponsors
 theme: tedx_pipitea_theme
 region: content_after
-weight: -6
+weight: -8
 provider: null
 plugin: 'block_content:166a42e4-3555-4c7b-a30e-f5f932ec9239'
 settings:
   id: 'block_content:166a42e4-3555-4c7b-a30e-f5f932ec9239'
   label: 'Our Sponsors'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
 visibility:
   request_path:
     id: request_path
-    pages: /about
+    pages: /event
     negate: false

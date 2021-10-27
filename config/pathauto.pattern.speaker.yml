@@ -1,0 +1,22 @@
+uuid: c6ced173-6d9f-4c7f-a476-858b96429332
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: speaker
+label: Speaker
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  8988259c-52fb-46ed-a33c-78b56c23311a:
+    id: node_type
+    bundles:
+      speakers: speakers
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8988259c-52fb-46ed-a33c-78b56c23311a
+selection_logic: and
+weight: -5
+relationships: {  }

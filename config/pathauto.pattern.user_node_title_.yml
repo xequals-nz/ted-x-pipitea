@@ -1,0 +1,14 @@
+uuid: f19e1e9b-d1f4-4979-b23e-da89717ca998
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_node_title_
+label: 'User [node:title]'
+type: 'canonical_entities:user'
+pattern: '/user/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,21 @@
+uuid: d8ffad80-2573-4d62-a46c-45c322980ee3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_text_left
+    - paragraphs.paragraphs_type.banner_image
+  module:
+    - text
+id: paragraph.banner_image.field_banner_text_left
+field_name: field_banner_text_left
+entity_type: paragraph
+bundle: banner_image
+label: 'Banner Text Left'
+description: 'Text to float over left hand side'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
