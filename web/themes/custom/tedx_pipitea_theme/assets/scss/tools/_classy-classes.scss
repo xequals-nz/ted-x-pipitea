@@ -179,7 +179,10 @@ p strong {
 		}
 	}
 	@include media-breakpoint-down(md){
-		flex-direction: column;
+		flex-direction: column-reverse;
+		.field--type-image {
+			margin-bottom: 40px;
+		}
 	}
 }
 
@@ -196,7 +199,7 @@ p strong {
 	}
 	@include media-breakpoint-down(md){
 
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 }
 
