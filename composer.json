@@ -30,6 +30,7 @@
         "drupal/smart_trim": "^1.3",
         "drupal/smtp": "^1.0",
         "drupal/social_media": "^1.8",
+        "drupal/video_embed_field": "^2.4",
         "drupal/webform": "^6.0",
         "drush/drush": "^10",
         "pantheon-upstreams/upstream-configuration": "*"
