@@ -63,6 +63,7 @@ p strong {
 			text-transform: uppercase;
 			font-weight: bold;
 			min-height: 50px;
+			margin-top: 30px;
 			//text-align: center;
 			a {
 				text-decoration: none;
@@ -195,7 +196,7 @@ p strong {
 	}
 	@include media-breakpoint-down(md){
 
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 }
 

@@ -13990,7 +13990,8 @@ p strong {
     .view-speaker-view .views-col .views-field-title {
       text-transform: uppercase;
       font-weight: bold;
-      min-height: 50px; }
+      min-height: 50px;
+      margin-top: 30px; }
       .view-speaker-view .views-col .views-field-title a {
         text-decoration: none; }
     .view-speaker-view .views-col img {
@@ -14120,9 +14121,9 @@ p strong {
   @media (max-width: 767.98px) {
     .node--view-mode-teaser .node__content {
       -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; } }
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse; } }
 
 #block-oursponsors img {
   max-width: 320px;
