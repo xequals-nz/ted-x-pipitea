@@ -63,7 +63,7 @@ p strong {
 			text-transform: uppercase;
 			font-weight: bold;
 			min-height: 50px;
-			text-align: center;
+			//text-align: center;
 			a {
 				text-decoration: none;
 			}
@@ -72,6 +72,7 @@ p strong {
 			width: 100%;
 			height: 440px;
 			object-fit: cover;
+			margin-bottom: 30px;
 			@include media-breakpoint-up(lg){
 				height: 280px;
 			}
@@ -99,6 +100,20 @@ p strong {
 			margin-bottom: 70px;
 			font-family: "Sofia Light";
 			font-size: 14px;
+		}
+		.views-field-field-youtube, views-field-field-video {
+			text-align: center;
+			a {
+				text-decoration: none;
+				padding: 10px 30px 6px 30px;
+				border: 1px solid white;
+				&:hover {
+					border: none;
+					background-color: $ted-red;
+					color: white;
+				}
+			}
+
 		}
 	}
 }
@@ -129,7 +144,11 @@ p strong {
 	display: none !important;
 }
 
-.field--type-image .field__label {
+.page-node-type-speakers .field__label {
+	display: none
+}
+
+.field--type-image .field__label, .field--type-link {
 	display: none;
 }
 
@@ -137,11 +156,17 @@ p strong {
 	max-width: 100%;
 }
 
+.field--name-field-video {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
 .page-node-type-speakers .node--type-speakers .node__content {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	margin-top: 30px;
+	flex-wrap: wrap-reverse;
 	.text-formatted {
 		flex-basis: 58%;
 	}
