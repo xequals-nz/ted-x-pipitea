@@ -1,4 +1,4 @@
-.paragraph--type--cta-paragraph {
+.path-frontpage .paragraph--type--cta-paragraph {
 	max-width: 100%;
 	background-color: $ted-dark-grey;
 	padding: 20px;
@@ -19,6 +19,7 @@
 	.field--name-field-link {
 		padding: 15px 0;
 		text-align: center;
+		display: block;
 		a {
 			@extend .square-button;
 		}

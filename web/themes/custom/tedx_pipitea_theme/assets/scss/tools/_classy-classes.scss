@@ -52,6 +52,7 @@ p strong {
 	margin-bottom: 50px;
 	.views-col {
 		flex-basis: 100%;
+		margin-bottom: 50px;
 
 		@include media-breakpoint-up(sm){
 			flex-basis: 48%;
@@ -63,7 +64,7 @@ p strong {
 			text-transform: uppercase;
 			font-weight: bold;
 			min-height: 50px;
-			margin-top: 30px;
+			//margin-bottom: 30px;
 			//text-align: center;
 			a {
 				text-decoration: none;
@@ -105,9 +106,18 @@ p strong {
 		.views-field-field-youtube, views-field-field-video {
 			text-align: center;
 			a {
+				display: block;
+				margin: auto;
+				border: 1px solid #fff;
+				color: #fff;
+				width: 180px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				padding: 8px 8px 4px 8px;
+				font-size: 14px;
+				letter-spacing: 1px;
 				text-decoration: none;
-				padding: 10px 30px 6px 30px;
-				border: 1px solid white;
 				&:hover {
 					border: none;
 					background-color: $ted-red;

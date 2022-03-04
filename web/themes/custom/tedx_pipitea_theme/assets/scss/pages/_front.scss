@@ -240,12 +240,12 @@
 }
 
 .path-frontpage .before {
-	background-color: white;
+	background-color: $ted-black;
 }
 
 #block-bannerblock {
 	max-width: 1440px;
-	background: white;
+	//background: white;
 	overflow-x: hidden;
 	img {
 		width: 100%;
