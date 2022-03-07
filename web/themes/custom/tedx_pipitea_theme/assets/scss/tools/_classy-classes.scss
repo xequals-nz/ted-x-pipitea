@@ -196,6 +196,22 @@ p strong {
 	}
 }
 
+.field--name-field-testimonial {
+	flex-basis: 100% !important;
+	margin-top: 30px;
+	background-color: white;
+	padding: 20px 20px 0 20px;
+	p {
+		color: black;
+	}
+	h2 {
+		color: $ted-red;
+		text-align: center;
+		//padding-bottom: 10px;
+		font-weight: normal;
+	}
+}
+
 .node--view-mode-teaser .node__content {
 	display: flex;
 	flex-direction: column;
@@ -226,6 +242,8 @@ p strong {
 		color: $ted-black;
 	}
 }
+
+
 
 //events
 

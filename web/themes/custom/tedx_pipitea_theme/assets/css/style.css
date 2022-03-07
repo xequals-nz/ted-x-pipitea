@@ -14111,6 +14111,19 @@ p strong {
       .page-node-type-speakers .node--type-speakers .node__content .field--type-image {
         margin-bottom: 40px; } }
 
+.field--name-field-testimonial {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px 20px 0 20px; }
+  .field--name-field-testimonial p {
+    color: black; }
+  .field--name-field-testimonial h2, .field--name-field-testimonial .h2, .field--name-field-testimonial .block-views-blockteam-member-view-block-1 .view-team-member-view article h2, .block-views-blockteam-member-view-block-1 .view-team-member-view article .field--name-field-testimonial h2, .field--name-field-testimonial #block-oursponsors article h2, #block-oursponsors article .field--name-field-testimonial h2 {
+    color: #f52c0c;
+    text-align: center;
+    font-weight: normal; }
+
 .node--view-mode-teaser .node__content {
   display: -webkit-box;
   display: -ms-flexbox;
