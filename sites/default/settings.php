@@ -15,6 +15,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *      the site settings remain consistent.
  */
  
+ $settings['hash_salt'] = 'teddypip';
  
  /**
  * Set the default location for the 'private' directory.  Note
@@ -96,14 +97,14 @@ if (file_exists($local_settings)) {
  * ];
  * @endcode
  */
- * $databases['default']['default'] = [
- *   'database' => 'u793468219_xequals',
- *   'username' => 'u793468219_xequals',
- *   'password' => 'Pe@ceLily88',
- *   'host' => 'localhost',
- *   'port' => '3306',
- *   'driver' => 'mysql',
- *   'prefix' => '',
- *   'collation' => 'utf8mb4_general_ci',
- * ];
+ $databases['default']['default'] = [
+    'database' => 'u793468219_xequals',
+    'username' => 'u793468219_xequals',
+    'password' => 'Pe@ceLily88',
+    'host' => 'localhost',
+    'port' => '3306',
+    'driver' => 'mysql',
+    'prefix' => '',
+    'collation' => 'utf8mb4_general_ci',
+ ];
 
