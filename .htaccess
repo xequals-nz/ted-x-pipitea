@@ -1,0 +1,13 @@
+#
+# Apache/PHP/Drupal settings:
+#
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+
+  # If your site is running in a VirtualDocumentRoot at http://example.com/,
+  # uncomment the following line:
+  RewriteBase /web
+
+</IfModule>
