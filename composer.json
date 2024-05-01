@@ -16,13 +16,13 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/bfd": "^2.65",
+        "drupal/classy_paragraphs": "^1.0@beta",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/core-vendor-hardening": "^9.1",
-        "drupal/admin_toolbar": "^3.0",
-        "drupal/bfd": "^2.65",
-        "drupal/classy_paragraphs": "^1.0@beta",
         "drupal/devel": "^4.1",
         "drupal/gin": "^3.0@alpha",
         "drupal/google_analytics": "^3.1",
@@ -38,7 +38,7 @@
         "drupal/social_media": "^1.8",
         "drupal/video_embed_field": "^2.4",
         "drupal/webform": "^6.0",
-        "drush/drush": "^10"
+        "drush/drush": "^10.6"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -63,17 +63,17 @@
     "extra": {
         "drupal-scaffold": {
             "locations": {
-                "web-root": "./web"
+                "web-root": "./"
             }
         },
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/composer/{$name}": ["type:drupal-module"],
-            "web/profiles/composer/{$name}": ["type:drupal-profile"],
-            "web/themes/composer/{$name}": ["type:drupal-theme"],
+            "core": ["type:drupal-core"],
+            "libraries/{$name}": ["type:drupal-library"],
+            "modules/composer/{$name}": ["type:drupal-module"],
+            "profiles/composer/{$name}": ["type:drupal-profile"],
+            "themes/composer/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+            "private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
         },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
